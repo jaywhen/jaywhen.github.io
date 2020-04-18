@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on 保持理智，相信未来。</title>
-    <link>http://localhost:1313/categories/hugo/</link>
+    <link>/categories/hugo/</link>
     <description>Recent content in Hugo on 保持理智，相信未来。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 10 Mar 2020 13:31:41 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello Hugo！</title>
-      <link>http://localhost:1313/post/post/hello-hugo/</link>
+      <link>/post/post/hello-hugo/</link>
       <pubDate>Tue, 10 Mar 2020 13:31:41 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/post/hello-hugo/</guid>
+      <guid>/post/post/hello-hugo/</guid>
       <description>之前使用hexo+github搭建的博客感觉速度有些慢，而且主要是hexo上没有我喜欢的主题（后来才知道hexo主题其实蛮多的，而且even</description>
     </item>
     

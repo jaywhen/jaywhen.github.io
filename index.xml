@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>保持理智，相信未来。</title>
-    <link>http://localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on 保持理智，相信未来。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 19 Mar 2020 19:01:05 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>记GitHub Pages遭受的一次中间人攻击</title>
-      <link>http://localhost:1313/post/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</link>
+      <link>/post/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</link>
       <pubDate>Fri, 27 Mar 2020 16:37:17 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</guid>
+      <guid>/post/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>XCacl：一个简单的计算器桌面程序</title>
-      <link>http://localhost:1313/post/post/xcacl/</link>
+      <link>/post/post/xcacl/</link>
       <pubDate>Fri, 20 Mar 2020 00:45:20 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/post/xcacl/</guid>
+      <guid>/post/post/xcacl/</guid>
       <description>XCacl是一个基于Qt Creator开发的简单的四则运算计算器。程序本身来说非常简单，并无什么亮点，不过在写这个程序时用到的一些算法还是值</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>/about/</link>
       <pubDate>Thu, 19 Mar 2020 19:01:05 +0800</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>/about/</guid>
       <description>关于这个博客 我会在这个博客上记录自己的学习经历以及一些想法，一直觉得生活中有许多事情值得记录下来。 存粹的CS相关的内容将在博客园记录 关于我 最</description>
     </item>
     
     <item>
       <title>Install Manjaro</title>
-      <link>http://localhost:1313/post/post/install-manjaro/</link>
+      <link>/post/post/install-manjaro/</link>
       <pubDate>Tue, 10 Mar 2020 17:05:14 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/post/install-manjaro/</guid>
+      <guid>/post/post/install-manjaro/</guid>
       <description>持续更新 本文首发于我的博客园 〇、README 本人电脑相关配置：单硬盘 UEFI+GPT格式启动 Win10家庭版 文章中的示例图部分来自manja</description>
     </item>
     
     <item>
       <title>Hello Hugo！</title>
-      <link>http://localhost:1313/post/post/hello-hugo/</link>
+      <link>/post/post/hello-hugo/</link>
       <pubDate>Tue, 10 Mar 2020 13:31:41 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/post/hello-hugo/</guid>
+      <guid>/post/post/hello-hugo/</guid>
       <description>之前使用hexo+github搭建的博客感觉速度有些慢，而且主要是hexo上没有我喜欢的主题（后来才知道hexo主题其实蛮多的，而且even</description>
     </item>
     

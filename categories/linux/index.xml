@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on 保持理智，相信未来。</title>
-    <link>http://localhost:1313/categories/linux/</link>
+    <link>/categories/linux/</link>
     <description>Recent content in Linux on 保持理智，相信未来。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 10 Mar 2020 17:05:14 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Install Manjaro</title>
-      <link>http://localhost:1313/post/post/install-manjaro/</link>
+      <link>/post/post/install-manjaro/</link>
       <pubDate>Tue, 10 Mar 2020 17:05:14 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/post/install-manjaro/</guid>
+      <guid>/post/post/install-manjaro/</guid>
       <description>持续更新 本文首发于我的博客园 〇、README 本人电脑相关配置：单硬盘 UEFI+GPT格式启动 Win10家庭版 文章中的示例图部分来自manja</description>
     </item>
     
