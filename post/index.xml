@@ -6,19 +6,10 @@
     <description>Recent content in Posts on 保持理智，相信未来。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Apr 2020 00:58:22 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2020 16:37:17 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Bob Dylan</title>
-      <link>http://localhost:1313/post/post/bob-dylan/</link>
-      <pubDate>Sat, 11 Apr 2020 00:58:22 +0800</pubDate>
-      
-      <guid>http://localhost:1313/post/post/bob-dylan/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>记GitHub Pages遭受的一次中间人攻击</title>
