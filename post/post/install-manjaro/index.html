@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Install Manjaro - 保持理智，相信未来。</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Jaywhen" /><meta name="description" content="持续更新 本文首发于我的博客园 〇、README 本人电脑相关配置：单硬盘 UEFI&#43;GPT格式启动 Win10家庭版 文章中的示例图部分来自manja" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.66.0 with theme even" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/post/install-manjaro/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<link href="http://localhost:1313/sass/main.min.8c3cbcb0324c2bb4875ceccba4007cbad4b4ac8377f33af9953c3e7684534a50.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="Install Manjaro" />
+<meta property="og:description" content="持续更新 本文首发于我的博客园 〇、README 本人电脑相关配置：单硬盘 UEFI&#43;GPT格式启动 Win10家庭版 文章中的示例图部分来自manja" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/post/install-manjaro/" />
+<meta property="article:published_time" content="2020-03-10T17:05:14+08:00" />
+<meta property="article:modified_time" content="2020-03-10T17:05:14+08:00" />
+<meta itemprop="name" content="Install Manjaro">
+<meta itemprop="description" content="持续更新 本文首发于我的博客园 〇、README 本人电脑相关配置：单硬盘 UEFI&#43;GPT格式启动 Win10家庭版 文章中的示例图部分来自manja">
+<meta itemprop="datePublished" content="2020-03-10T17:05:14&#43;08:00" />
+<meta itemprop="dateModified" content="2020-03-10T17:05:14&#43;08:00" />
+<meta itemprop="wordCount" content="1622">
+
+
+
+<meta itemprop="keywords" content="Manjaro," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Install Manjaro"/>
+<meta name="twitter:description" content="持续更新 本文首发于我的博客园 〇、README 本人电脑相关配置：单硬盘 UEFI&#43;GPT格式启动 Win10家庭版 文章中的示例图部分来自manja"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">夜航船</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">夜航船</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Install Manjaro</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2020-03-10 </span>
+        <div class="post-category">
+            <a href="/categories/linux/"> Linux </a>
+            </div>
+          <span class="more-meta"> 1622 words </span>
+          <span class="more-meta"> 4 mins read </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents"></nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p><img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgmanjaro.png" alt=""></p>
+<hr>
+<p><strong>持续更新</strong> 本文首发于<a href="https://www.cnblogs.com/Jaywhen-xiang/p/11561661.html">我的博客园</a></p>
+<hr>
+<p><strong>〇、README</strong></p>
+<blockquote>
+<ol>
+<li>本人电脑相关配置：<strong>单硬盘</strong> <strong>UEFI+GPT格式启动</strong> <strong>Win10家庭版</strong></li>
+<li>文章中的示例图部分来自manjaro kde 18.04,部分来自19.0.1，对实际操作并不影响
+<del>（why？，之前装的18.04更新时崩了，手贱强制关机🙄）</del></li>
+<li>如上所说，本篇博文只适用于启动方式为<strong>UEFI+GPT</strong></li>
+</ol>
+</blockquote>
+<p><strong>一、前言</strong></p>
+<blockquote>
+<p><code>Manjaro</code>是一款基于Arch Linux的、用户友好的发行版，虽然<code>Manjaro is not Arch</code>，但它依然能够从<code>AUR(Arch User Repository)</code>中提取软件包，且有自己的独立库。</p>
+<p>它有且不仅有如下特性：</p>
+<ul>
+<li><strong>Pre-installed</strong> （在你还没正式安装时，你便可从启动盘直接流畅体验它的桌面系统）</li>
+<li>快、强、高效</li>
+<li>滚动发布，无需定期更新系统版本</li>
+<li>&hellip;&hellip;</li>
+</ul>
+</blockquote>
+<p><strong>二、准备工作</strong></p>
+<ol>
+<li>
+<p><strong>查看电脑的启动方式:</strong></p>
+<blockquote>
+<p>目前主流的两种启动系统的方式：
+<strong>legacy</strong>启动+<strong>MBR</strong>分区表</p>
+<p><strong>UEFI</strong>启动+<strong>GPT</strong>分区表</p>
+<p>我们需要查看自己硬盘使用的哪种分区：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">文件资源管理器-&gt;（右键）此电脑-&gt;管理-&gt;磁盘管理
+</code></pre></td></tr></table>
+</div>
+</div><p><img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgdiskto.png" alt=""></p>
+<p>由于我的电脑是[单硬盘]，所以只有一个磁盘0
+右键选择一个磁盘-&gt;属性-&gt;卷
+在磁盘分区形式一栏中可以看到是GPT or MBR</p>
+</blockquote>
+</li>
+<li>
+<p><strong>下载manjaro镜像：</strong></p>
+<blockquote>
+<p>对一般用户而言，官网下载镜像的速度会非常慢，所以这里可选择在<a href="https://mirrors.tuna.tsinghua.edu.cn/osdn/storage/g/m/ma/manjaro/kde/">清华大学开源软件镜像站</a>下载manjaro kde 的镜像文件：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgtun.jpg" alt=""></p>
+</blockquote>
+</li>
+<li>
+<p><strong>制作启动盘：</strong></p>
+<blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgrufu.png" alt="">
+制作启动盘官方文档推荐使用<a href="http://rufus.ie/">Rufus</a>或<a href="https://launchpad.net/win32-image-writer/">Image Writer</a>，我这里使用Rufus来制作
+最新版本的Rufus可能无法选择分区类型，可以选择下载低版本
+如上图所示，个人感觉<code>FossHub</code>上的快些</p>
+<p>插入u盘，打开<code>Rufus</code>，我的分区类型一栏选择的是<code>GPT</code>，其他的都为默认，</p>
+<p>点击<code>开始</code>后弹出该窗口，点击以<code>DD</code>镜像模式写入
+<img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgd.png" alt=""></p>
+</blockquote>
+</li>
+<li>
+<p><strong>在Windows上为manjaro分配磁盘空间：</strong></p>
+<blockquote>
+<p><!-- raw HTML omitted -->此电脑<!-- raw HTML omitted -->&ndash;<!-- raw HTML omitted -->管理<!-- raw HTML omitted -->&ndash;<!-- raw HTML omitted -->磁盘管理<!-- raw HTML omitted -->
+选一块空间充裕的盘，从上面分一部分空间（大小因需求而异）:</p>
+<p><!-- raw HTML omitted -->空间充裕的盘<!-- raw HTML omitted -->&ndash;<!-- raw HTML omitted -->压缩卷<!-- raw HTML omitted -->&ndash;<!-- raw HTML omitted -->想要分配的空间大小<!-- raw HTML omitted -->&ndash;<!-- raw HTML omitted -->压缩<!-- raw HTML omitted --></p>
+<p>压缩完了就可暂时不用管了，<strong>不用格式化</strong>，后面会用到</p>
+</blockquote>
+</li>
+<li>
+<p><strong>关闭windows快速启动与安全启动</strong></p>
+<blockquote>
+<p>快速启动：参考<a href="https://jingyan.baidu.com/article/48b558e30ca7977f38c09a95.html">这篇文章</a>
+安全启动：<!-- raw HTML omitted -->BIOS<!-- raw HTML omitted -->&ndash;<!-- raw HTML omitted -->System Configuration<!-- raw HTML omitted -->&ndash;<!-- raw HTML omitted -->Boot Options<!-- raw HTML omitted -->&ndash;<!-- raw HTML omitted -->Secure Boot<!-- raw HTML omitted -->&ndash;<!-- raw HTML omitted -->Disabled<!-- raw HTML omitted --></p>
+</blockquote>
+</li>
+</ol>
+<p><strong>三、开始安装</strong></p>
+<ol>
+<li>
+<p><strong>设置从U盘启动：</strong>
+<!-- raw HTML omitted -->Windows设置<!-- raw HTML omitted -->&ndash;<!-- raw HTML omitted -->更新和安全<!-- raw HTML omitted -->&ndash;<!-- raw HTML omitted -->恢复<!-- raw HTML omitted -->&ndash;<!-- raw HTML omitted -->立即重新启动<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>配置选项</strong></p>
+<blockquote>
+<p>成功从U盘启动后，首先会进入配置界面，唯一需要注意的是<strong>driver</strong>的选择</p>
+<p><strong>driver</strong>选择<strong>free</strong>还是<strong>nofree</strong>因电脑配置而异，以下仅供参考：</p>
+<table>
+<thead>
+<tr>
+<th align="center">CPU</th>
+<th align="center">显卡</th>
+<th align="center">选择</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Intel</td>
+<td align="center">无独显</td>
+<td align="center">free</td>
+</tr>
+<tr>
+<td align="center">AMD</td>
+<td align="center">无独显</td>
+<td align="center">free</td>
+</tr>
+<tr>
+<td align="center">AMD</td>
+<td align="center">NVIDIA</td>
+<td align="center">no free</td>
+</tr>
+<tr>
+<td align="center">Intel</td>
+<td align="center">AMD</td>
+<td align="center">free</td>
+</tr>
+<tr>
+<td align="center">Intel</td>
+<td align="center">NVIDIA</td>
+<td align="center">no free</td>
+</tr>
+</tbody>
+</table>
+<p>设置完毕后，<!-- raw HTML omitted -->enter<!-- raw HTML omitted -->Boot进入桌面</p>
+</blockquote>
+</li>
+<li>
+<p><strong>分区</strong></p>
+<blockquote>
+<p>选择手动分区</p>
+<p>我的划分表(共60G)：</p>
+<table>
+<thead>
+<tr>
+<th align="center">大小</th>
+<th align="center">文件系统</th>
+<th align="center">挂载点</th>
+<th align="center">标记</th>
+<th align="center">用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">8G</td>
+<td align="center">linuxswap</td>
+<td align="center"></td>
+<td align="center">swap</td>
+<td align="center"><a href="https://www.cnblogs.com/kerrycode/p/5246383.html">about swap</a></td>
+</tr>
+<tr>
+<td align="center">500M</td>
+<td align="center">ext4</td>
+<td align="center">/boot</td>
+<td align="center">boot</td>
+<td align="center">存放与Linux启动相关的程序</td>
+</tr>
+<tr>
+<td align="center">20G</td>
+<td align="center">ext4</td>
+<td align="center">/</td>
+<td align="center">root</td>
+<td align="center">用于存放系统相当于win10的C盘</td>
+</tr>
+<tr>
+<td align="center">the rest</td>
+<td align="center">ext4</td>
+<td align="center">/home</td>
+<td align="center">无需标记</td>
+<td align="center">用户数据存储</td>
+</tr>
+</tbody>
+</table>
+<p>找到在Windows上划分的空闲区,点击创建</p>
+<p><code>swap</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgswa.png" alt=""></p>
+<p><code>boot</code>
+<img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgboo.png" alt="">
+<code>/</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgroo.png" alt="">
+<code>/home</code>
+<img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imghom.png" alt=""></p>
+</blockquote>
+</li>
+<li>
+<p><strong>挂载Manjaro引导</strong></p>
+<blockquote>
+<p>此时找到大小为100M的分区
+这里面有Windows的引导分区，所以内容点保留
+将manjaro也挂载在上面，如图所示：
+<img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgef.png" alt=""></p>
+</blockquote>
+</li>
+</ol>
+<p><strong>四、完成</strong></p>
+<blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgove.png" alt="">
+一切才刚刚开始&hellip;</p>
+</blockquote>
+<p><strong>五、配置</strong>
+<code>sudo pacman-mirrors -c China -m rank # 更改源</code></p>
+<p>增加中文社区的源来，在 <code>/etc/pacman.conf</code> 中添加 <code>archlinuxcn</code> 源，加上：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">[archlinuxcn]
+SigLevel = Optional TrustedOnly
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+</code></pre></td></tr></table>
+</div>
+</div><p>安装 <code>archlinuxcn-keyring</code> 包以导入 <code>GPG key</code>，否则的话 key 验证失败会无法安装：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo pacman -S archlinuxcn-keyring
+sudo pacman -Syyu #更新
+</code></pre></td></tr></table>
+</div>
+</div><p><code>sudo pacman -S yay						# Arch Linux AUR 包管理工具</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback"># 解决双系统时间不同步问题
+timedatectl set-local-rtc true
+</code></pre></td></tr></table>
+</div>
+</div><p>输入法：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">#墙裂推荐使用搜狗拼音，谷歌拼音不太适合中国人的语境
+sudo pacman -S fcitx
+sudo pacman -S fcitx-configtool
+sudo pacman -S fcitx-gtk2 fcitx-gtk3 fcitx-qt4 fcitx-qt5
+#解决中文输入法无法切换问题: 添加文件 ~/.xprofile：
+export GTK_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=&#34;@im=fcitx&#34;
+#若以上执行完后无法输入中文，只能显示字母
+#删掉~/.conf下所有与Sogou相关的文件夹
+yay -S fcitx -im
+sudo pacman -S fcitx-qt4 fcitx-qt5 fcitx-gtk2 fcitx-gtk3
+#若输入法中文乱码
+将搜狗输入法调整至输入法序列第二位
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="nx">sudo</span> <span class="nx">pacman</span> <span class="o">-</span><span class="nx">S</span> <span class="nx">visual</span><span class="o">-</span><span class="nx">studio</span><span class="o">-</span><span class="nx">code</span><span class="o">-</span><span class="nx">bin</span> 	<span class="err">#</span> <span class="nx">vscode</span>
+<span class="nx">yay</span> <span class="o">-</span><span class="nx">S</span> <span class="nx">typora</span> 							<span class="err">#</span> <span class="nx">markdown编辑利器</span>
+<span class="nx">yay</span> <span class="o">-</span><span class="nx">S</span> <span class="nx">deepin</span><span class="o">-</span><span class="nx">wine</span><span class="o">-</span><span class="nx">tim</span>					<span class="err">#</span> <span class="nx">Tim</span>
+</code></pre></td></tr></table>
+</div>
+</div>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Jaywhen</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2020-03-10
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/manjaro/">Manjaro</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/post/xcacl/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">XCacl：一个简单的计算器桌面程序</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/post/hello-hugo/">
+            <span class="next-text nav-default">Hello Hugo！</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:jaywhenxiang@foxmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://stackoverflow.com/users/12057370/xjw-2000" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="https://github.com/jaywhen" class="iconfont icon-github" title="github"></a>
+      <a href="https://www.zhihu.com/people/xiang-jie-wen-47" class="iconfont icon-zhihu" title="zhihu"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> site pv: <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> site uv: <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Jaywhen</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="http://localhost:1313/js/main.f3982787498bde362e62b5de507d1714dc64c83a09ad4958598bce2c039150a5.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>XCacl：一个简单的计算器桌面程序 - 保持理智，相信未来。</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Jaywhen" /><meta name="description" content="XCacl是一个基于Qt Creator开发的简单的四则运算计算器。程序本身来说非常简单，并无什么亮点，不过在写这个程序时用到的一些算法还是值" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.66.0 with theme even" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/post/xcacl/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<link href="http://localhost:1313/sass/main.min.8c3cbcb0324c2bb4875ceccba4007cbad4b4ac8377f33af9953c3e7684534a50.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="XCacl：一个简单的计算器桌面程序" />
+<meta property="og:description" content="XCacl是一个基于Qt Creator开发的简单的四则运算计算器。程序本身来说非常简单，并无什么亮点，不过在写这个程序时用到的一些算法还是值" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/post/xcacl/" />
+<meta property="article:published_time" content="2020-03-20T00:45:20+08:00" />
+<meta property="article:modified_time" content="2020-03-20T00:45:20+08:00" />
+<meta itemprop="name" content="XCacl：一个简单的计算器桌面程序">
+<meta itemprop="description" content="XCacl是一个基于Qt Creator开发的简单的四则运算计算器。程序本身来说非常简单，并无什么亮点，不过在写这个程序时用到的一些算法还是值">
+<meta itemprop="datePublished" content="2020-03-20T00:45:20&#43;08:00" />
+<meta itemprop="dateModified" content="2020-03-20T00:45:20&#43;08:00" />
+<meta itemprop="wordCount" content="1302">
+
+
+
+<meta itemprop="keywords" content="Qt," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="XCacl：一个简单的计算器桌面程序"/>
+<meta name="twitter:description" content="XCacl是一个基于Qt Creator开发的简单的四则运算计算器。程序本身来说非常简单，并无什么亮点，不过在写这个程序时用到的一些算法还是值"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">夜航船</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">夜航船</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">XCacl：一个简单的计算器桌面程序</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2020-03-20 </span>
+        <div class="post-category">
+            <a href="/categories/products/"> products </a>
+            </div>
+          <span class="more-meta"> 1302 words </span>
+          <span class="more-meta"> 3 mins read </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+        <li><a href="#核心算法">核心算法:</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p><img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgnew.png" alt=""></p>
+<blockquote>
+<p>XCacl是一个基于Qt Creator开发的简单的四则运算计算器。程序本身来说非常简单，并无什么亮点，不过在写这个程序时用到的一些算法还是值得我记录的。</p>
+<h4 id="developerjaywhenhttpsgithubcomjaywhen">Developer：<a href="https://github.com/jaywhen">Jaywhen</a></h4>
+<h4 id="icon-designer-yanqi-yuhttpsweibocomu6115420805is_hot1">Icon-designer: <a href="https://weibo.com/u/6115420805?is_hot=1">Yanqi-Yu</a></h4>
+<p>📝: <a href="https://github.com/jaywhen/XCalc">程序代码</a></p>
+</blockquote>
+<h3 id="核心算法">核心算法:</h3>
+<h4 id="后缀表达式-逆波兰式">后缀表达式 （逆波兰式）:</h4>
+<blockquote>
+<p>后缀表达式非常适合计算机来计算多项式，因为在后缀表达式中不存在括号以及优先级，计算后缀表达式只需使用栈即可</p>
+<p>表示示例：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">中缀：2+(4+6)x8-10
+后缀：246+8x+10-
+</code></pre></td></tr></table>
+</div>
+</div><p>中缀表达式转后缀表达式的方法：</p>
+<ul>
+<li>声明两个空栈（输出栈、运算符栈）</li>
+<li>从左向右扫描中缀表达式，遇见数字将其压入输出栈</li>
+<li>遇见操作符则将其与栈顶的操作符的优先级进行比较</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">如果该运算符的优先级比栈顶运算符的优先级高，则直接将其压入运算符栈中
+如果该运算符的优先级比栈顶运算符优先级低，则从栈顶开始弹出运算符至输出栈，直至
+遇见优先级比该运算符低的运算符时，将该运算符压入栈顶
+特殊：如果该运算符为左括号`(`，直接将其压入栈顶，直到遇见右括号`)`
+才将其中间的所有运算符弹出到输出栈，且将`(`与`)`弹出（丢弃，非弹出至输出栈）
+若扫描完成后运算符栈中还有运算符，将其压入输出栈
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>此时将输出栈逆序一遍，就得后缀表达式</li>
+</ul>
+<p>例如我们要将<code>中缀：2+(4+6)x8-10</code>转为<code>后缀：246+8x+10-</code>:</p>
+<ul>
+<li>
+<p>初始化两个栈：<code>outputStack</code>（输出栈）以及<code>operatorStack</code>（运算符栈）</p>
+</li>
+<li>
+<p>数字<code>2</code>压入输出栈</p>
+</li>
+<li>
+<p>此时运算符栈中无运算符，故<code>+</code>号压入运算符栈</p>
+</li>
+<li>
+<p>遇见<code>(</code>无视优先级，直接压入运算符栈</p>
+</li>
+<li>
+<p>数字<code>4</code>压入输出栈</p>
+</li>
+<li>
+<p><code>+</code>号压入运算符栈，因为此时栈顶为<code>(</code>，<code>(</code>左括号 只有当遇见右括号 <code>)</code> 时才能才能弹出</p>
+</li>
+<li>
+<p>数字<code>6</code>压入输出栈</p>
+</li>
+<li>
+<p>遇见<code>)</code>，此时运算符栈中有(从左到右为栈顶到栈尾)：<code>+ ( +</code>，故将栈顶的<code>+</code>号弹出至输出栈，且<code>()</code>弹出</p>
+<p>此时运算符栈中只剩下<code>+</code>号</p>
+</li>
+<li>
+<p><code>x</code>号优先级比栈顶的<code>+</code>号高，直接压入运算符栈栈顶</p>
+</li>
+<li>
+<p>数字<code>8</code>直接压入输出栈</p>
+</li>
+<li>
+<p><code>-</code>号优先级比运算符栈栈顶的<code>x</code>号低，此时运算符栈中有:<code>x -</code>，都大于等于<code>-</code>号的优先级，故将其全部压入输出栈，并将<code>-</code>号压入运算符栈</p>
+</li>
+<li>
+<p>数字<code>10</code>压入输出栈</p>
+</li>
+<li>
+<p>扫描完成，此时运算符栈中还有<code>-</code>号，故将其压入输出栈</p>
+</li>
+<li>
+<p>此时输出栈中元素为：<code>-10+x8+642</code>逆序得<code>246+8x+10-</code></p>
+</li>
+</ul>
+</blockquote>
+<h4 id="后缀表达式的计算">后缀表达式的计算：</h4>
+<blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">后缀表达式的计算方法非常简单，因为复杂的部分都在转换过程上了
+首先申请一个栈来存储计算结果`resultStack`
+从逆序的输出栈中依次取元素，遇到数字压入结果栈中
+遇运算符则将结果栈中位于栈顶的两个元素取出做相应的运算，
+运算顺序为(第二个数字) (运算符) (栈顶数字)，并将结果压入结果栈中
+最后结果栈中的数字即为结果
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>用上例所得的后缀表达式为例：<code>246+8x+10-</code></li>
+<li>前三个元素都是数字，故直接压入结果栈中</li>
+<li>此时我们的栈中就有：<code>6(栈顶) 4 2(栈底)</code></li>
+<li>继续扫描，遇到<code>+</code>号，则将栈顶的两个元素取出做加法运算得<code>4+6=10</code></li>
+<li>此时栈中有：<code>10 2</code></li>
+<li>继续扫描，数字<code>8</code>压入栈中</li>
+<li>继续扫描，遇<code>x</code>号，将结果栈栈顶二数字取出做<code>10x8=80</code>,<code>80</code>压入结果栈</li>
+<li>此时数字栈中有：<code>80 2</code></li>
+<li>又遇<code>+</code>号，<code>2+80=82</code>，压入数字栈</li>
+<li>数字<code>10</code>压入栈</li>
+<li>遇<code>-</code>号，<code>82-10=72</code>, 验证：<code>2+(4+6)x8-10=72</code></li>
+</ul>
+</blockquote>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Jaywhen</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2020-03-20
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/qt/">Qt</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">记GitHub Pages遭受的一次中间人攻击</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/post/install-manjaro/">
+            <span class="next-text nav-default">Install Manjaro</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:jaywhenxiang@foxmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://stackoverflow.com/users/12057370/xjw-2000" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="https://github.com/jaywhen" class="iconfont icon-github" title="github"></a>
+      <a href="https://www.zhihu.com/people/xiang-jie-wen-47" class="iconfont icon-zhihu" title="zhihu"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> site pv: <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> site uv: <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Jaywhen</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="http://localhost:1313/js/main.f3982787498bde362e62b5de507d1714dc64c83a09ad4958598bce2c039150a5.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
