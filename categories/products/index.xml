@@ -1,158 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-  <title>products on 保持理智，相信未来。</title>
-  <link>/categories/products/</link>
-  <description>Recent content in products on 保持理智，相信未来。</description>
-  <generator>Hugo -- gohugo.io</generator>
-  
-  <language>en</language>
-  
-  
-  
-  
-  <lastBuildDate>Fri, 20 Mar 2020 00:45:20 +0800</lastBuildDate>
-  
-      <atom:link href="/categories/products/index.xml" rel="self" type="application/rss+xml" />
-  
-  
-  <item>
-    <title>XCacl：一个简单的计算器桌面程序</title>
-    <link>/post/post/xcacl/</link>
-    <pubDate>Fri, 20 Mar 2020 00:45:20 +0800</pubDate>
+  <channel>
+    <title>products on 保持理智，相信未来。</title>
+    <link>/categories/products/</link>
+    <description>Recent content in products on 保持理智，相信未来。</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Mar 2020 00:45:20 +0800</lastBuildDate>
     
-    <guid>/post/post/xcacl/</guid>
-    <description>&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgnew.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;XCacl是一个基于Qt Creator开发的简单的四则运算计算器。程序本身来说非常简单，并无什么亮点，不过在写这个程序时用到的一些算法还是值得我记录的。&lt;/p&gt;
-&lt;h4 id=&#34;developerjaywhenhttpsgithubcomjaywhen&#34;&gt;Developer：&lt;a href=&#34;https://github.com/jaywhen&#34;&gt;Jaywhen&lt;/a&gt;&lt;/h4&gt;
-&lt;h4 id=&#34;icon-designer-yanqi-yuhttpsweibocomu6115420805is_hot1&#34;&gt;Icon-designer: &lt;a href=&#34;https://weibo.com/u/6115420805?is_hot=1&#34;&gt;Yanqi-Yu&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;📝: &lt;a href=&#34;https://github.com/jaywhen/XCalc&#34;&gt;程序代码&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;核心算法&#34;&gt;核心算法:&lt;/h3&gt;
-&lt;h4 id=&#34;后缀表达式-逆波兰式&#34;&gt;后缀表达式 （逆波兰式）:&lt;/h4&gt;
-&lt;blockquote&gt;
-&lt;p&gt;后缀表达式非常适合计算机来计算多项式，因为在后缀表达式中不存在括号以及优先级，计算后缀表达式只需使用栈即可&lt;/p&gt;
-&lt;p&gt;表示示例：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;中缀：2+(4+6)x8-10
-后缀：246+8x+10-
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;中缀表达式转后缀表达式的方法：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;声明两个空栈（输出栈、运算符栈）&lt;/li&gt;
-&lt;li&gt;从左向右扫描中缀表达式，遇见数字将其压入输出栈&lt;/li&gt;
-&lt;li&gt;遇见操作符则将其与栈顶的操作符的优先级进行比较&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;如果该运算符的优先级比栈顶运算符的优先级高，则直接将其压入运算符栈中
-如果该运算符的优先级比栈顶运算符优先级低，则从栈顶开始弹出运算符至输出栈，直至
-遇见优先级比该运算符低的运算符时，将该运算符压入栈顶
-特殊：如果该运算符为左括号`(`，直接将其压入栈顶，直到遇见右括号`)`
-才将其中间的所有运算符弹出到输出栈，且将`(`与`)`弹出（丢弃，非弹出至输出栈）
-若扫描完成后运算符栈中还有运算符，将其压入输出栈
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;此时将输出栈逆序一遍，就得后缀表达式&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;例如我们要将&lt;code&gt;中缀：2+(4+6)x8-10&lt;/code&gt;转为&lt;code&gt;后缀：246+8x+10-&lt;/code&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;初始化两个栈：&lt;code&gt;outputStack&lt;/code&gt;（输出栈）以及&lt;code&gt;operatorStack&lt;/code&gt;（运算符栈）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;数字&lt;code&gt;2&lt;/code&gt;压入输出栈&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;此时运算符栈中无运算符，故&lt;code&gt;+&lt;/code&gt;号压入运算符栈&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;遇见&lt;code&gt;(&lt;/code&gt;无视优先级，直接压入运算符栈&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;数字&lt;code&gt;4&lt;/code&gt;压入输出栈&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;+&lt;/code&gt;号压入运算符栈，因为此时栈顶为&lt;code&gt;(&lt;/code&gt;，&lt;code&gt;(&lt;/code&gt;左括号 只有当遇见右括号 &lt;code&gt;)&lt;/code&gt; 时才能才能弹出&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;数字&lt;code&gt;6&lt;/code&gt;压入输出栈&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;遇见&lt;code&gt;)&lt;/code&gt;，此时运算符栈中有(从左到右为栈顶到栈尾)：&lt;code&gt;+ ( +&lt;/code&gt;，故将栈顶的&lt;code&gt;+&lt;/code&gt;号弹出至输出栈，且&lt;code&gt;()&lt;/code&gt;弹出&lt;/p&gt;
-&lt;p&gt;此时运算符栈中只剩下&lt;code&gt;+&lt;/code&gt;号&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;x&lt;/code&gt;号优先级比栈顶的&lt;code&gt;+&lt;/code&gt;号高，直接压入运算符栈栈顶&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;数字&lt;code&gt;8&lt;/code&gt;直接压入输出栈&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code&gt;-&lt;/code&gt;号优先级比运算符栈栈顶的&lt;code&gt;x&lt;/code&gt;号低，此时运算符栈中有:&lt;code&gt;x -&lt;/code&gt;，都大于等于&lt;code&gt;-&lt;/code&gt;号的优先级，故将其全部压入输出栈，并将&lt;code&gt;-&lt;/code&gt;号压入运算符栈&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;数字&lt;code&gt;10&lt;/code&gt;压入输出栈&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;扫描完成，此时运算符栈中还有&lt;code&gt;-&lt;/code&gt;号，故将其压入输出栈&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;此时输出栈中元素为：&lt;code&gt;-10+x8+642&lt;/code&gt;逆序得&lt;code&gt;246+8x+10-&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;h4 id=&#34;后缀表达式的计算&#34;&gt;后缀表达式的计算：&lt;/h4&gt;
-&lt;blockquote&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;后缀表达式的计算方法非常简单，因为复杂的部分都在转换过程上了
-首先申请一个栈来存储计算结果`resultStack`
-从逆序的输出栈中依次取元素，遇到数字压入结果栈中
-遇运算符则将结果栈中位于栈顶的两个元素取出做相应的运算，
-运算顺序为(第二个数字) (运算符) (栈顶数字)，并将结果压入结果栈中
-最后结果栈中的数字即为结果
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;用上例所得的后缀表达式为例：&lt;code&gt;246+8x+10-&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;前三个元素都是数字，故直接压入结果栈中&lt;/li&gt;
-&lt;li&gt;此时我们的栈中就有：&lt;code&gt;6(栈顶) 4 2(栈底)&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;继续扫描，遇到&lt;code&gt;+&lt;/code&gt;号，则将栈顶的两个元素取出做加法运算得&lt;code&gt;4+6=10&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;此时栈中有：&lt;code&gt;10 2&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;继续扫描，数字&lt;code&gt;8&lt;/code&gt;压入栈中&lt;/li&gt;
-&lt;li&gt;继续扫描，遇&lt;code&gt;x&lt;/code&gt;号，将结果栈栈顶二数字取出做&lt;code&gt;10x8=80&lt;/code&gt;,&lt;code&gt;80&lt;/code&gt;压入结果栈&lt;/li&gt;
-&lt;li&gt;此时数字栈中有：&lt;code&gt;80 2&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;又遇&lt;code&gt;+&lt;/code&gt;号，&lt;code&gt;2+80=82&lt;/code&gt;，压入数字栈&lt;/li&gt;
-&lt;li&gt;数字&lt;code&gt;10&lt;/code&gt;压入栈&lt;/li&gt;
-&lt;li&gt;遇&lt;code&gt;-&lt;/code&gt;号，&lt;code&gt;82-10=72&lt;/code&gt;, 验证：&lt;code&gt;2+(4+6)x8-10=72&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-</description>
-  </item>
-  
-</channel>
+	<atom:link href="/categories/products/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>XCacl：一个简单的计算器桌面程序</title>
+      <link>/post/post/xcacl/</link>
+      <pubDate>Fri, 20 Mar 2020 00:45:20 +0800</pubDate>
+      
+      <guid>/post/post/xcacl/</guid>
+      <description>XCacl是一个基于Qt Creator开发的简单的四则运算计算器。程序本身来说非常简单，并无什么亮点，不过在写这个程序时用到的一些算法还是值</description>
+    </item>
+    
+  </channel>
 </rss>

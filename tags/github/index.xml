@@ -1,52 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-  <title>GitHub on 保持理智，相信未来。</title>
-  <link>/tags/github/</link>
-  <description>Recent content in GitHub on 保持理智，相信未来。</description>
-  <generator>Hugo -- gohugo.io</generator>
-  
-  <language>en</language>
-  
-  
-  
-  
-  <lastBuildDate>Fri, 27 Mar 2020 16:37:17 +0800</lastBuildDate>
-  
-      <atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
-  
-  
-  <item>
-    <title>记GitHub Pages遭受的一次中间人攻击</title>
-    <link>/post/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</link>
-    <pubDate>Fri, 27 Mar 2020 16:37:17 +0800</pubDate>
+  <channel>
+    <title>GitHub on 保持理智，相信未来。</title>
+    <link>/tags/github/</link>
+    <description>Recent content in GitHub on 保持理智，相信未来。</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Mar 2020 16:37:17 +0800</lastBuildDate>
     
-    <guid>/post/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</guid>
-    <description>&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgfailed.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;2020.3.26 GitHub Pages遭受中间人攻击，导致包括本站在内的大量部署在GitHub Pages上的静态博客出现了SSL证书问题，无法访问。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;问题原因及应对措施概述&#34;&gt;问题原因及应对措施概述&lt;/h2&gt;
-&lt;p&gt;有组织或个人使用BGP劫持将 &lt;code&gt;xxx.github.io.com&lt;/code&gt;的IP地址指向了使用&lt;code&gt;346608453@qq.com&lt;/code&gt;的自签名的证书的服务器，由于浏览器并不信任该证书，所以出现无法访问的情况，但经分析，使用以下几种方法依然能够正常访问：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;搭梯子从国外访问被劫持的网站&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/answer/1107698817&#34;&gt;DoH+ESNI直连&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/answer/1108013687&#34;&gt;修改host文件&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;个人看法&#34;&gt;个人看法&lt;/h2&gt;
-&lt;p&gt;首先这件事情对我还是造成了些许影响的😶。由于菜，一开始我以为时我的GitHub Pages证书过期了，于是去重置域名解析，当然这并不起效，于是就弄了一下午，期间还给GitHub的客服反馈了情况，（在第二天问题解决时发来了回复）：
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgfeedback.jpg&#34; alt=&#34;&#34;&gt;
-直到当时确实想不出什么办法后，开始刷知乎，发现原来大家都是这样，并且京东主页也短暂性的出现过这个情况，考虑到这种事情并不是我等菜鸟所能左右的，于是乎放下执念去打游戏了hhhh。&lt;/p&gt;
-&lt;h2 id=&#34;说点正事&#34;&gt;说点正事&lt;/h2&gt;
-&lt;p&gt;这件事情过后，我深刻的认识到网络不是安全的（至少在现在看来），历史上大公司网页被黑的案例不胜枚举，个人信息泄露的事件层出不穷。作为用户，我们必须要重视网络安全，作为学习计算机的学生，也必须重视计算机网络这门学科，并应用到实际中。
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgneork.jpg&#34; alt=&#34;network&#34;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;ps(这本书的中译版真是一言难尽)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;参考链接：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/answer/1107698817&#34;&gt;知乎：如何看待2020 年 3 月 26 日 GitHub 疑似遭受中间人攻击？&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.v2ex.com/t/656367?p=1&#34;&gt;V2EX: Github pages 的 HTTPS 是不是出问题了？&lt;/a&gt;&lt;/p&gt;</description>
-  </item>
-  
-</channel>
+	<atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>记GitHub Pages遭受的一次中间人攻击</title>
+      <link>/post/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</link>
+      <pubDate>Fri, 27 Mar 2020 16:37:17 +0800</pubDate>
+      
+      <guid>/post/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
 </rss>
