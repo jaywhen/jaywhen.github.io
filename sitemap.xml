@@ -79,13 +79,6 @@
   </url>
   
   <url>
-    <loc>/post/post/%E5%AE%89%E8%A3%85manjaro/</loc>
-    <lastmod>2020-04-28T14:34:17+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/categories/linux/</loc>
     <lastmod>2020-04-28T14:34:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -100,15 +93,8 @@
   </url>
   
   <url>
-    <loc>/post/post/hello-hugo/</loc>
-    <lastmod>2020-03-10T13:31:41+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/hugo/</loc>
-    <lastmod>2020-03-10T13:31:41+08:00</lastmod>
+    <loc>/post/post/%E5%AE%89%E8%A3%85manjaro/</loc>
+    <lastmod>2020-04-28T14:34:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
