@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Jaywhen" /><meta name="description" content="持续更新 本文首发于我的博客园 〇、README 本人电脑相关配置：单硬盘 UEFI&#43;GPT格式启动 Win10家庭版 文章中的示例图部分来自manja" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Jaywhen" /><meta name="description" content="The most beautiful Linux distribution" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -40,22 +40,22 @@
 
 
 <meta property="og:title" content="Install Manjaro" />
-<meta property="og:description" content="持续更新 本文首发于我的博客园 〇、README 本人电脑相关配置：单硬盘 UEFI&#43;GPT格式启动 Win10家庭版 文章中的示例图部分来自manja" />
+<meta property="og:description" content="The most beautiful Linux distribution" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/post/post/install-manjaro/" />
 <meta property="article:published_time" content="2020-03-10T17:05:14+08:00" />
 <meta property="article:modified_time" content="2020-03-10T17:05:14+08:00" />
 <meta itemprop="name" content="Install Manjaro">
-<meta itemprop="description" content="持续更新 本文首发于我的博客园 〇、README 本人电脑相关配置：单硬盘 UEFI&#43;GPT格式启动 Win10家庭版 文章中的示例图部分来自manja">
+<meta itemprop="description" content="The most beautiful Linux distribution">
 <meta itemprop="datePublished" content="2020-03-10T17:05:14&#43;08:00" />
 <meta itemprop="dateModified" content="2020-03-10T17:05:14&#43;08:00" />
-<meta itemprop="wordCount" content="1622">
+<meta itemprop="wordCount" content="1760">
 
 
 
 <meta itemprop="keywords" content="Manjaro," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Install Manjaro"/>
-<meta name="twitter:description" content="持续更新 本文首发于我的博客园 〇、README 本人电脑相关配置：单硬盘 UEFI&#43;GPT格式启动 Win10家庭版 文章中的示例图部分来自manja"/>
+<meta name="twitter:description" content="The most beautiful Linux distribution"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -129,7 +129,7 @@
         <div class="post-category">
             <a href="/categories/linux/"> Linux </a>
             </div>
-          <span class="more-meta"> 1622 words </span>
+          <span class="more-meta"> 1760 words </span>
           <span class="more-meta"> 4 mins read </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
@@ -142,16 +142,14 @@
   </div>
 </div>
     <div class="post-content">
-      <p><img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgmanjaro.png" alt=""></p>
+      <p><img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgrblog.png" alt="manjaro"></p>
 <hr>
-<p><strong>持续更新</strong> 本文首发于<a href="https://www.cnblogs.com/Jaywhen-xiang/p/11561661.html">我的博客园</a></p>
+<p><strong>持续更新</strong></p>
 <hr>
 <p><strong>〇、README</strong></p>
 <blockquote>
 <ol>
 <li>本人电脑相关配置：<strong>单硬盘</strong> <strong>UEFI+GPT格式启动</strong> <strong>Win10家庭版</strong></li>
-<li>文章中的示例图部分来自manjaro kde 18.04,部分来自19.0.1，对实际操作并不影响
-<del>（why？，之前装的18.04更新时崩了，手贱强制关机🙄）</del></li>
 <li>如上所说，本篇博文只适用于启动方式为<strong>UEFI+GPT</strong></li>
 </ol>
 </blockquote>
@@ -183,7 +181,7 @@
 <pre class="chroma"><code class="language-fallback" data-lang="fallback">文件资源管理器-&gt;（右键）此电脑-&gt;管理-&gt;磁盘管理
 </code></pre></td></tr></table>
 </div>
-</div><p><img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgdiskto.png" alt=""></p>
+</div><p><img src="https://img2018.cnblogs.com/blog/1539665/202001/1539665-20200109113532263-467812746.png" alt="Diskmanagement"></p>
 <p>由于我的电脑是[单硬盘]，所以只有一个磁盘0
 右键选择一个磁盘-&gt;属性-&gt;卷
 在磁盘分区形式一栏中可以看到是GPT or MBR</p>
@@ -193,19 +191,20 @@
 <p><strong>下载manjaro镜像：</strong></p>
 <blockquote>
 <p>对一般用户而言，官网下载镜像的速度会非常慢，所以这里可选择在<a href="https://mirrors.tuna.tsinghua.edu.cn/osdn/storage/g/m/ma/manjaro/kde/">清华大学开源软件镜像站</a>下载manjaro kde 的镜像文件：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgtun.jpg" alt=""></p>
+<p><img src="https://img2020.cnblogs.com/blog/1539665/202003/1539665-20200307160344468-805864034.jpg" alt=""></p>
 </blockquote>
 </li>
 <li>
 <p><strong>制作启动盘：</strong></p>
 <blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgrufu.png" alt="">
-制作启动盘官方文档推荐使用<a href="http://rufus.ie/">Rufus</a>或<a href="https://launchpad.net/win32-image-writer/">Image Writer</a>，我这里使用Rufus来制作
+<p><!-- raw HTML omitted --></p>
+<p>制作启动盘官方文档推荐使用<a href="http://rufus.ie/">Rufus</a>或<a href="https://launchpad.net/win32-image-writer/">Image Writer</a>，我这里使用Rufus来制作
+ps:rufus是用c写的（难怪这么快），是一个开源项目，有兴趣的小伙伴可以去它的<a href="https://github.com/pbatard/rufus/tree/master/src">github</a>上研究研究
 最新版本的Rufus可能无法选择分区类型，可以选择下载低版本
 如上图所示，个人感觉<code>FossHub</code>上的快些</p>
 <p>插入u盘，打开<code>Rufus</code>，我的分区类型一栏选择的是<code>GPT</code>，其他的都为默认，</p>
 <p>点击<code>开始</code>后弹出该窗口，点击以<code>DD</code>镜像模式写入
-<img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgd.png" alt=""></p>
+<img src="https://img2018.cnblogs.com/blog/1539665/202001/1539665-20200109130229425-1414184345.png" alt=""></p>
 </blockquote>
 </li>
 <li>
@@ -323,13 +322,13 @@
 </table>
 <p>找到在Windows上划分的空闲区,点击创建</p>
 <p><code>swap</code></p>
-<p><img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgswa.png" alt=""></p>
+<p><img src="https://img2020.cnblogs.com/blog/1539665/202003/1539665-20200304155457688-1847811638.png" alt=""></p>
 <p><code>boot</code>
-<img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgboo.png" alt="">
-<code>/</code></p>
-<p><img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgroo.png" alt="">
+<img src="https://img2020.cnblogs.com/blog/1539665/202003/1539665-20200304155717689-599131037.png" alt="">
+<code>/</code>
+<img src="https://img2020.cnblogs.com/blog/1539665/202003/1539665-20200304155758720-1352697870.png" alt="">
 <code>/home</code>
-<img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imghom.png" alt=""></p>
+<img src="https://img2020.cnblogs.com/blog/1539665/202003/1539665-20200304155812007-314480847.png" alt=""></p>
 </blockquote>
 </li>
 <li>
@@ -338,18 +337,18 @@
 <p>此时找到大小为100M的分区
 这里面有Windows的引导分区，所以内容点保留
 将manjaro也挂载在上面，如图所示：
-<img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgef.png" alt=""></p>
+<img src="https://img2020.cnblogs.com/blog/1539665/202003/1539665-20200304160721050-258020564.png" alt=""></p>
 </blockquote>
 </li>
 </ol>
 <p><strong>四、完成</strong></p>
 <blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgove.png" alt="">
+<p><img src="https://img2020.cnblogs.com/blog/1539665/202003/1539665-20200304161137874-1231527623.png" alt="">
 一切才刚刚开始&hellip;</p>
 </blockquote>
 <p><strong>五、配置</strong>
 <code>sudo pacman-mirrors -c China -m rank # 更改源</code></p>
-<p>增加中文社区的源来，在 <code>/etc/pacman.conf</code> 中添加 <code>archlinuxcn</code> 源，加上：</p>
+<p>增加中文社区的源，在 <code>/etc/pacman.conf</code> 中添加 <code>archlinuxcn</code> 源，加上：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -369,7 +368,7 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo pacman -S archlinuxcn-keyring
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo pacman -Sy archlinuxcn-keyring
 sudo pacman -Syyu #更新
 </code></pre></td></tr></table>
 </div>
@@ -400,13 +399,11 @@ timedatectl set-local-rtc true
 </span><span class="lnt">11
 </span><span class="lnt">12
 </span><span class="lnt">13
-</span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">#墙裂推荐使用搜狗拼音，谷歌拼音不太适合中国人的语境
-sudo pacman -S fcitx
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo pacman -S fcitx
 sudo pacman -S fcitx-configtool
-sudo pacman -S fcitx-gtk2 fcitx-gtk3 fcitx-qt4 fcitx-qt5
+sudo pacman -S fcitx-gtk2 fcitx-gtk3 fcitx-qt4 fcitx-qt5 fcitx-sogoupinyin
 #解决中文输入法无法切换问题: 添加文件 ~/.xprofile：
 export GTK_MODULE=fcitx
 export QT_IM_MODULE=fcitx
@@ -421,14 +418,48 @@ sudo pacman -S fcitx-qt4 fcitx-qt5 fcitx-gtk2 fcitx-gtk3
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-js" data-lang="js"><span class="nx">sudo</span> <span class="nx">pacman</span> <span class="o">-</span><span class="nx">S</span> <span class="nx">visual</span><span class="o">-</span><span class="nx">studio</span><span class="o">-</span><span class="nx">code</span><span class="o">-</span><span class="nx">bin</span> 	<span class="err">#</span> <span class="nx">vscode</span>
-<span class="nx">yay</span> <span class="o">-</span><span class="nx">S</span> <span class="nx">typora</span> 							<span class="err">#</span> <span class="nx">markdown编辑利器</span>
-<span class="nx">yay</span> <span class="o">-</span><span class="nx">S</span> <span class="nx">deepin</span><span class="o">-</span><span class="nx">wine</span><span class="o">-</span><span class="nx">tim</span>					<span class="err">#</span> <span class="nx">Tim</span>
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 手动安装oh-my-zsh</span>
+git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc            
+<span class="c1"># ----------------------------------------------------------------</span>
+
+<span class="c1"># 一些软件</span>
+sudo pacman -S google-chrome            <span class="c1">#配合google-access-helper完美解决无法访问某不存在网站，需要可发邮箱</span>
+sudo pacman -S visual-studio-code-bin 	<span class="c1"># vscode</span>
+yay -S typora 			        <span class="c1"># markdown编辑利器</span>
+yay -S deepin-wine-tim			<span class="c1"># Tim</span>
+
+
+<span class="c1">#----upd：2020/4/28--</span>
+<span class="c1">#----2020/4/28版本的TIM无法输入中文解决：</span>
+<span class="c1">#编辑 /opt/deepinwine/apps/Deepin-TIM/下的  run.sh文件</span>
+<span class="c1">#加入：</span>
+<span class="nb">export</span> <span class="nv">GTK_IM_MODULE</span><span class="o">=</span><span class="s2">&#34;fcitx&#34;</span>
+<span class="nb">export</span> <span class="nv">QT_IM_MODULE</span><span class="o">=</span><span class="s2">&#34;fcitx&#34;</span> 
+<span class="nb">export</span> <span class="nv">XMODIFIERS</span><span class="o">=</span><span class="s2">&#34;@im=fcitx&#34;</span>
+
 </code></pre></td></tr></table>
 </div>
 </div>
