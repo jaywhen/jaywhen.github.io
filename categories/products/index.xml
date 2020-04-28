@@ -13,11 +13,11 @@
     
     <item>
       <title>XCacl：一个简单的计算器桌面程序</title>
-      <link>/post/post/xcacl/</link>
+      <link>/post/xcacl/</link>
       <pubDate>Fri, 20 Mar 2020 00:45:20 +0800</pubDate>
       
-      <guid>/post/post/xcacl/</guid>
-      <description>XCacl是一个基于Qt Creator开发的简单的四则运算计算器。程序本身来说非常简单，并无什么亮点，不过在写这个程序时用到的一些算法还是值</description>
+      <guid>/post/xcacl/</guid>
+      <description>简介 XCacl是一个基于Qt Creator开发的简单的四则运算计算器。程序本身来说非常简单，并无什么亮点，不过在写这个程序时用到的一些算法还</description>
     </item>
     
   </channel>
