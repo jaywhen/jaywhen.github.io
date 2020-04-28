@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Hello Hugo</title>
+      <link>/post/post/hello-hugo/</link>
+      <pubDate>Tue, 28 Apr 2020 15:03:59 +0800</pubDate>
+      
+      <guid>/post/post/hello-hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>记GitHub Pages遭受的一次中间人攻击</title>
       <link>/post/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</link>
       <pubDate>Fri, 27 Mar 2020 16:37:17 +0800</pubDate>
