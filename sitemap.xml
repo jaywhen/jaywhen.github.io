@@ -37,7 +37,7 @@
   </url>
   
   <url>
-    <loc>/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</loc>
+    <loc>/post/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</loc>
     <lastmod>2020-03-27T16:37:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -58,7 +58,7 @@
   </url>
   
   <url>
-    <loc>/post/xcacl/</loc>
+    <loc>/post/post/xcacl/</loc>
     <lastmod>2020-03-20T00:45:20+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -79,7 +79,7 @@
   </url>
   
   <url>
-    <loc>/post/%E5%AE%89%E8%A3%85manjaro/</loc>
+    <loc>/post/post/%E5%AE%89%E8%A3%85manjaro/</loc>
     <lastmod>2020-04-28T14:34:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -100,7 +100,7 @@
   </url>
   
   <url>
-    <loc>/post/hello-hugo/</loc>
+    <loc>/post/post/hello-hugo/</loc>
     <lastmod>2020-03-10T13:31:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

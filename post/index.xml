@@ -13,37 +13,37 @@
     
     <item>
       <title>记GitHub Pages遭受的一次中间人攻击</title>
-      <link>/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</link>
+      <link>/post/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</link>
       <pubDate>Fri, 27 Mar 2020 16:37:17 +0800</pubDate>
       
-      <guid>/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</guid>
+      <guid>/post/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>XCacl：一个简单的计算器桌面程序</title>
-      <link>/post/xcacl/</link>
+      <link>/post/post/xcacl/</link>
       <pubDate>Fri, 20 Mar 2020 00:45:20 +0800</pubDate>
       
-      <guid>/post/xcacl/</guid>
+      <guid>/post/post/xcacl/</guid>
       <description>简介 XCacl是一个基于Qt Creator开发的简单的四则运算计算器。程序本身来说非常简单，并无什么亮点，不过在写这个程序时用到的一些算法还</description>
     </item>
     
     <item>
       <title>Install Manjaro</title>
-      <link>/post/%E5%AE%89%E8%A3%85manjaro/</link>
+      <link>/post/post/%E5%AE%89%E8%A3%85manjaro/</link>
       <pubDate>Tue, 10 Mar 2020 17:05:14 +0800</pubDate>
       
-      <guid>/post/%E5%AE%89%E8%A3%85manjaro/</guid>
+      <guid>/post/post/%E5%AE%89%E8%A3%85manjaro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hello Hugo！</title>
-      <link>/post/hello-hugo/</link>
+      <link>/post/post/hello-hugo/</link>
       <pubDate>Tue, 10 Mar 2020 13:31:41 +0800</pubDate>
       
-      <guid>/post/hello-hugo/</guid>
+      <guid>/post/post/hello-hugo/</guid>
       <description>之前使用hexo+github搭建的博客感觉速度有些慢，而且主要是hexo上没有我喜欢的主题（后来才知道hexo主题其实蛮多的，而且even</description>
     </item>
     
