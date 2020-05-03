@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-05-02T19:27:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-05-02T19:27:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/post/posted/</loc>
+    <lastmod>2020-05-02T19:27:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2020-05-02T19:27:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/post/post/blowinwind/</loc>
     <lastmod>2020-04-29T21:44:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -16,21 +44,7 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-04-29T21:44:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/categories/music/</loc>
-    <lastmod>2020-04-29T21:44:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
     <lastmod>2020-04-29T21:44:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -45,13 +59,6 @@
   
   <url>
     <loc>/tags/github/</loc>
-    <lastmod>2020-03-27T16:37:17+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/%E6%9D%82%E8%B0%88/</loc>
     <lastmod>2020-03-27T16:37:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
