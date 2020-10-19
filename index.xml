@@ -17,16 +17,7 @@
       <pubDate>Mon, 19 Oct 2020 16:51:09 +0800</pubDate>
       
       <guid>/post/post/howlanguageworks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>这就“郝👌”</title>
-      <link>/post/post/sohao/</link>
-      <pubDate>Tue, 25 Aug 2020 23:43:27 +0800</pubDate>
-      
-      <guid>/post/post/sohao/</guid>
-      <description>这个夏天练得很爽！</description>
+      <description>C ​ 许多高校会将c语言作为新生编程入门的教学语言，因为它语法相对（C++ \ Java等编程语言）来说比较简单，编程语言的主要特性（除了面向对象</description>
     </item>
     
     <item>
@@ -48,15 +39,6 @@
     </item>
     
     <item>
-      <title>旧文</title>
-      <link>/post/post/posted/</link>
-      <pubDate>Sat, 02 May 2020 19:27:06 +0800</pubDate>
-      
-      <guid>/post/post/posted/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Blowing in the Wind</title>
       <link>/post/post/blowinwind/</link>
       <pubDate>Wed, 29 Apr 2020 21:44:05 +0800</pubDate>
@@ -72,6 +54,15 @@
       
       <guid>/post/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>XCacl：一个简单的计算器桌面程序</title>
+      <link>/post/post/xcacl/</link>
+      <pubDate>Fri, 20 Mar 2020 00:45:20 +0800</pubDate>
+      
+      <guid>/post/post/xcacl/</guid>
+      <description>简介 XCacl是一个基于Qt Creator开发的简单的四则运算计算器。程序本身来说非常简单，并无什么亮点，不过在写这个程序时用到的一些算法还</description>
     </item>
     
     <item>
