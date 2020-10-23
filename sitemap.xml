@@ -2,15 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/post/post/1024/</loc>
-    <lastmod>2020-10-23T20:11:48+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/post/</loc>
-    <lastmod>2020-10-23T20:11:48+08:00</lastmod>
+    <lastmod>2020-10-19T16:51:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
