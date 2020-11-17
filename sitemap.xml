@@ -3,127 +3,127 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/posts/1024/</loc>
+    <loc>/posts/1024/</loc>
     <lastmod>2020-10-24T00:11:48+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2020-10-24T00:11:48+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/howlanguageworks/</loc>
+    <loc>/posts/howlanguageworks/</loc>
     <lastmod>2020-10-19T16:51:09+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2020-08-10T23:14:07+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/daily/</loc>
+    <loc>/tags/daily/</loc>
     <lastmod>2020-08-10T23:14:07+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-08-10T23:14:07+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/%E6%9D%82%E8%B0%88/</loc>
+    <loc>/categories/%E6%9D%82%E8%B0%88/</loc>
     <lastmod>2020-08-10T23:14:07+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/recently/</loc>
+    <loc>/posts/recently/</loc>
     <lastmod>2020-08-10T23:14:07+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/poetry/</loc>
+    <loc>/tags/poetry/</loc>
     <lastmod>2020-05-13T00:31:58+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/voice-of-nanjing/</loc>
+    <loc>/posts/voice-of-nanjing/</loc>
     <lastmod>2020-05-13T00:31:58+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/blowinwind/</loc>
+    <loc>/posts/blowinwind/</loc>
     <lastmod>2020-04-29T21:44:05+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/bobdylan/</loc>
+    <loc>/tags/bobdylan/</loc>
     <lastmod>2020-04-29T21:44:05+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/music/</loc>
+    <loc>/categories/music/</loc>
     <lastmod>2020-04-29T21:44:05+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/github/</loc>
+    <loc>/tags/github/</loc>
     <lastmod>2020-03-27T16:37:17+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</loc>
+    <loc>/posts/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</loc>
     <lastmod>2020-03-27T16:37:17+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/products/</loc>
+    <loc>/categories/products/</loc>
     <lastmod>2020-03-20T00:45:20+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/qt/</loc>
+    <loc>/tags/qt/</loc>
     <lastmod>2020-03-20T00:45:20+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/xcacl/</loc>
+    <loc>/posts/xcacl/</loc>
     <lastmod>2020-03-20T00:45:20+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2020-03-19T19:01:05+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2020-03-19T19:01:05+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/linux/</loc>
+    <loc>/categories/linux/</loc>
     <lastmod>2020-04-28T14:34:17+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/manjaro/</loc>
+    <loc>/tags/manjaro/</loc>
     <lastmod>2020-04-28T14:34:17+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/%E5%AE%89%E8%A3%85manjaro/</loc>
+    <loc>/posts/%E5%AE%89%E8%A3%85manjaro/</loc>
     <lastmod>2020-04-28T14:34:17+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/hello-hugo/</loc>
+    <loc>/posts/hello-hugo/</loc>
     <lastmod>2020-04-28T15:03:59+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/hugo/</loc>
+    <loc>/categories/hugo/</loc>
     <lastmod>2020-04-28T15:03:59+08:00</lastmod>
   </url>
   

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>products on Jaywhen</title>
-    <link>http://localhost:1313/categories/products/</link>
+    <link>/categories/products/</link>
     <description>Recent content in products on Jaywhen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 20 Mar 2020 00:45:20 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/categories/products/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/products/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>XCacl：一个简单的计算器桌面程序</title>
-      <link>http://localhost:1313/posts/xcacl/</link>
+      <link>/posts/xcacl/</link>
       <pubDate>Fri, 20 Mar 2020 00:45:20 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/xcacl/</guid>
+      <guid>/posts/xcacl/</guid>
       <description>简介 XCacl是一个基于Qt Creator开发的简单的四则运算计算器。程序本身来说非常简单，并无什么亮点，不过在写这个程序时用到的一些算法还是值得我记录的。 Developer：Jaywhen 📝: 程序代</description>
     </item>
     

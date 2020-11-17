@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>杂谈 on Jaywhen</title>
-    <link>http://localhost:1313/categories/%E6%9D%82%E8%B0%88/</link>
+    <link>/categories/%E6%9D%82%E8%B0%88/</link>
     <description>Recent content in 杂谈 on Jaywhen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 10 Aug 2020 23:14:07 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/categories/%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>近况</title>
-      <link>http://localhost:1313/posts/recently/</link>
+      <link>/posts/recently/</link>
       <pubDate>Mon, 10 Aug 2020 23:14:07 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/recently/</guid>
+      <guid>/posts/recently/</guid>
       <description></description>
     </item>
     
     <item>
       <title>星星依然挂在远方</title>
-      <link>http://localhost:1313/posts/voice-of-nanjing/</link>
+      <link>/posts/voice-of-nanjing/</link>
       <pubDate>Wed, 13 May 2020 00:31:58 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/voice-of-nanjing/</guid>
+      <guid>/posts/voice-of-nanjing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>记GitHub Pages遭受的一次中间人攻击</title>
-      <link>http://localhost:1313/posts/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</link>
+      <link>/posts/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</link>
       <pubDate>Fri, 27 Mar 2020 16:37:17 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</guid>
+      <guid>/posts/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</guid>
       <description></description>
     </item>
     

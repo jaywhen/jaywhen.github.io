@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>daily on Jaywhen</title>
-    <link>http://localhost:1313/tags/daily/</link>
+    <link>/tags/daily/</link>
     <description>Recent content in daily on Jaywhen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 10 Aug 2020 23:14:07 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/daily/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/daily/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>近况</title>
-      <link>http://localhost:1313/posts/recently/</link>
+      <link>/posts/recently/</link>
       <pubDate>Mon, 10 Aug 2020 23:14:07 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/recently/</guid>
+      <guid>/posts/recently/</guid>
       <description></description>
     </item>
     
