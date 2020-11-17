@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 保持理智，相信未来。</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on 保持理智，相信未来。</description>
+    <title>Tags on Jaywhen</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Jaywhen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 10 Aug 2020 23:14:07 +0800</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>daily</title>
-      <link>/tags/daily/</link>
+      <link>http://localhost:1313/tags/daily/</link>
       <pubDate>Mon, 10 Aug 2020 23:14:07 +0800</pubDate>
       
-      <guid>/tags/daily/</guid>
+      <guid>http://localhost:1313/tags/daily/</guid>
       <description></description>
     </item>
     
     <item>
       <title>poetry</title>
-      <link>/tags/poetry/</link>
+      <link>http://localhost:1313/tags/poetry/</link>
       <pubDate>Wed, 13 May 2020 00:31:58 +0800</pubDate>
       
-      <guid>/tags/poetry/</guid>
+      <guid>http://localhost:1313/tags/poetry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>BobDylan</title>
-      <link>/tags/bobdylan/</link>
+      <link>http://localhost:1313/tags/bobdylan/</link>
       <pubDate>Wed, 29 Apr 2020 21:44:05 +0800</pubDate>
       
-      <guid>/tags/bobdylan/</guid>
+      <guid>http://localhost:1313/tags/bobdylan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GitHub</title>
-      <link>/tags/github/</link>
+      <link>http://localhost:1313/tags/github/</link>
       <pubDate>Fri, 27 Mar 2020 16:37:17 +0800</pubDate>
       
-      <guid>/tags/github/</guid>
+      <guid>http://localhost:1313/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Qt</title>
-      <link>/tags/qt/</link>
+      <link>http://localhost:1313/tags/qt/</link>
       <pubDate>Fri, 20 Mar 2020 00:45:20 +0800</pubDate>
       
-      <guid>/tags/qt/</guid>
+      <guid>http://localhost:1313/tags/qt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Manjaro</title>
-      <link>/tags/manjaro/</link>
+      <link>http://localhost:1313/tags/manjaro/</link>
       <pubDate>Tue, 10 Mar 2020 17:05:14 +0800</pubDate>
       
-      <guid>/tags/manjaro/</guid>
+      <guid>http://localhost:1313/tags/manjaro/</guid>
       <description></description>
     </item>
     

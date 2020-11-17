@@ -1,94 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>保持理智，相信未来。</title>
-    <link>https://jaywhen.com/</link>
-    <description>Recent content on 保持理智，相信未来。</description>
+    <title>Jaywhen</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Jaywhen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 19 Mar 2020 19:01:05 +0800</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>1024</title>
+      <link>http://localhost:1313/posts/1024/</link>
+      <pubDate>Sat, 24 Oct 2020 00:11:48 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/1024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>这些编程语言都能干什么？</title>
-      <link>/post/post/howlanguageworks/</link>
+      <link>http://localhost:1313/posts/howlanguageworks/</link>
       <pubDate>Mon, 19 Oct 2020 16:51:09 +0800</pubDate>
       
-      <guid>/post/post/howlanguageworks/</guid>
-      <description>C ​ 许多高校会将c语言作为新生编程入门的教学语言，因为它语法相对（C++ \ Java等编程语言）来说比较简单，编程语言的主要特性（除了面向对象</description>
+      <guid>http://localhost:1313/posts/howlanguageworks/</guid>
+      <description>C ​ 许多高校会将c语言作为新生编程入门的教学语言，因为它语法相对（C++ \ Java等编程语言）来说比较简单，编程语言的主要特性（除了面向对象）[条件分支、错误处理、循环等]都具有 ​ c的指针特性使其可以</description>
     </item>
     
     <item>
       <title>近况</title>
-      <link>/post/post/recently/</link>
+      <link>http://localhost:1313/posts/recently/</link>
       <pubDate>Mon, 10 Aug 2020 23:14:07 +0800</pubDate>
       
-      <guid>/post/post/recently/</guid>
+      <guid>http://localhost:1313/posts/recently/</guid>
       <description></description>
     </item>
     
     <item>
       <title>星星依然挂在远方</title>
-      <link>/post/post/voice-of-nanjing/</link>
+      <link>http://localhost:1313/posts/voice-of-nanjing/</link>
       <pubDate>Wed, 13 May 2020 00:31:58 +0800</pubDate>
       
-      <guid>/post/post/voice-of-nanjing/</guid>
+      <guid>http://localhost:1313/posts/voice-of-nanjing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blowing in the Wind</title>
-      <link>/post/post/blowinwind/</link>
+      <link>http://localhost:1313/posts/blowinwind/</link>
       <pubDate>Wed, 29 Apr 2020 21:44:05 +0800</pubDate>
       
-      <guid>/post/post/blowinwind/</guid>
+      <guid>http://localhost:1313/posts/blowinwind/</guid>
       <description></description>
     </item>
     
     <item>
       <title>记GitHub Pages遭受的一次中间人攻击</title>
-      <link>/post/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</link>
+      <link>http://localhost:1313/posts/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</link>
       <pubDate>Fri, 27 Mar 2020 16:37:17 +0800</pubDate>
       
-      <guid>/post/post/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</guid>
+      <guid>http://localhost:1313/posts/%E8%AE%B0github%E7%9A%84%E4%B8%80%E6%AC%A1%E7%9F%AD%E6%9A%82%E6%B2%A6%E9%99%B7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>XCacl：一个简单的计算器桌面程序</title>
-      <link>/post/post/xcacl/</link>
+      <link>http://localhost:1313/posts/xcacl/</link>
       <pubDate>Fri, 20 Mar 2020 00:45:20 +0800</pubDate>
       
-      <guid>/post/post/xcacl/</guid>
-      <description>简介 XCacl是一个基于Qt Creator开发的简单的四则运算计算器。程序本身来说非常简单，并无什么亮点，不过在写这个程序时用到的一些算法还</description>
+      <guid>http://localhost:1313/posts/xcacl/</guid>
+      <description>简介 XCacl是一个基于Qt Creator开发的简单的四则运算计算器。程序本身来说非常简单，并无什么亮点，不过在写这个程序时用到的一些算法还是值得我记录的。 Developer：Jaywhen 📝: 程序代</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 19 Mar 2020 19:01:05 +0800</pubDate>
       
-      <guid>/about/</guid>
-      <description>关于这个博客(About this blog) 把起舞的今日 写成诗篇， 多年后也不遗憾 ​ ——《美好事物》- 房东的猫 关于我 (About me) 正在潜心修炼中&amp;hellip;&amp;hel</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>关于这个博客(About this blog) 把起舞的今日 写成诗篇， 多年后也不遗憾 ​ ——《美好事物》- 房东的猫 关于我 (About me) 正在潜心修炼中&amp;hellip;&amp;hellip; 兴趣：(Interest) 逛GitHub , CG , 篮球</description>
     </item>
     
     <item>
       <title>安装Manjaro</title>
-      <link>/post/post/%E5%AE%89%E8%A3%85manjaro/</link>
+      <link>http://localhost:1313/posts/%E5%AE%89%E8%A3%85manjaro/</link>
       <pubDate>Tue, 10 Mar 2020 17:05:14 +0800</pubDate>
       
-      <guid>/post/post/%E5%AE%89%E8%A3%85manjaro/</guid>
+      <guid>http://localhost:1313/posts/%E5%AE%89%E8%A3%85manjaro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hello Hugo！</title>
-      <link>/post/post/hello-hugo/</link>
+      <link>http://localhost:1313/posts/hello-hugo/</link>
       <pubDate>Tue, 10 Mar 2020 13:31:41 +0800</pubDate>
       
-      <guid>/post/post/hello-hugo/</guid>
+      <guid>http://localhost:1313/posts/hello-hugo/</guid>
       <description></description>
     </item>
     
