@@ -57,15 +57,6 @@
     </item>
     
     <item>
-      <title>XCacl：一个简单的计算器桌面程序</title>
-      <link>/posts/xcacl/</link>
-      <pubDate>Fri, 20 Mar 2020 00:45:20 +0800</pubDate>
-      
-      <guid>/posts/xcacl/</guid>
-      <description>简介 XCacl是一个基于Qt Creator开发的简单的四则运算计算器。程序本身来说非常简单，并无什么亮点，不过在写这个程序时用到的一些算法还是值得我记录的。 Developer：Jaywhen 📝: 程序代</description>
-    </item>
-    
-    <item>
       <title>安装Manjaro</title>
       <link>/posts/%E5%AE%89%E8%A3%85manjaro/</link>
       <pubDate>Tue, 10 Mar 2020 17:05:14 +0800</pubDate>
