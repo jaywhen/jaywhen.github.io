@@ -1,8 +1,6 @@
-##########################################
 # 站点配置
-
-baseURL = "https://example.com/"
-title = "Hugo 主题 MemE"
+baseURL = "https://jaywhen.com/"
+title = "jaywhen"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -31,7 +29,7 @@ enableEmoji = false
 footnoteReturnLinkContents = "↩"
 
 # 是否启用 Git 版本信息
-enableGitInfo = false
+enableGitInfo = true
 
 # 是否生成 robots.txt 文件
 enableRobotsTXT = true
@@ -92,17 +90,17 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "reuixiy"
+    name = "jaywhen"
     # 邮箱
-    email = "reuixiy@gmail.com"
+    email = "jaywhenx@gmail.com"
     # 座右铭或简介
-    motto = "Viva La Vida"
+    motto = ""
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://io-oi.me/"
+    website = "https://jaywhen.com/"
     # 推特
-    twitter = "reuixiy"
+    twitter = "jaywhen6"
 
 # 相关文章
 [related]
@@ -294,11 +292,11 @@ uglyURLs = false
     # 3. posts     文章摘要
     # 4. page      普通页面
 
-    homeLayout = "posts"
+    homeLayout = "poetry"
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = []
+    homePoetry = ["人生到处知何似", "应似飞鸿踏雪泥"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
@@ -323,16 +321,16 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。"
+    siteDescription = "jaywhen's life"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
     # 站点的创建时间
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2020-02-19T20:17:43+00:00"
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
-    siteTwitter = "reuixiy"
+    siteTwitter = "jaywhen6"
     # 说明：用于 Twitter Cards
 
 
@@ -353,7 +351,7 @@ uglyURLs = false
     # 的树状分类，故如需保留树状分类，建议适应
     # Hugo 的设计理念——分区。
 
-    categoryBy = "categories"
+    categoryBy = "categories"  
     # 注意：如果你设置为 `sections`，请务必将
     #      此配置文件中的类别（taxonomies）中
     #      的 `categories` 删除，不然分类页
@@ -1192,7 +1190,7 @@ uglyURLs = false
     # 自定义页脚（支持 Markdown）
     customFooter = ""
 
-    displayBusuanziSiteUVAndPV = false
+    displayBusuanziSiteUVAndPV = true
     busuanziSiteUVText = "本站访客数"
     busuanziSiteUVIcon = "user"
     busuanziSitePVText = "本站访问量"
