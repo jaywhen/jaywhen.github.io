@@ -44,12 +44,12 @@ uglyURLs = false
 
 # URL 结构
 [permalinks]
-    categories = "/categories/:slug/"
+    # categories = "/categories/:slug/"
     tags = "/tags/:slug/"
 
 # 类别
 [taxonomies]
-    category = "categories"
+    # category = "categories"
     tag = "tags"
 
 # 修改时间
@@ -176,34 +176,34 @@ uglyURLs = false
 
 [menu]
     ## 菜单栏
-    # [[menu.main]]
-    #     url = "/"
-    #     name = "首页"
-    #     weight = 1
-    #     pre = "internal"
-    #     post = "home"
+	[[menu.main]]
+	    url = "/"
+	    name = "首页"
+	    weight = 1
+	    pre = "internal"
+	    post = "home"
     [[menu.main]]
-        url = "/posts/"
-        name = "文章"
+        url = "/life/"
+        name = "生活"
         weight = 2
         pre = "internal"
-        post = "archive"
+        # post = "archive"
     [[menu.main]]
-        url = "/categories/"
-        name = "分类"
+        url = "/cs/"
+        name = "计算机科学"
         weight = 3
         pre = "internal"
         post = "th"
-    [[menu.main]]
-        url = "/tags/"
-        name = "标签"
-        weight = 4
-        pre = "internal"
-        post = "tags"
+#    [[menu.main]]
+#        url = "/tags/"
+#        name = "标签"
+#        weight = 4
+#        pre = "internal"
+#        post = "tags"
     [[menu.main]]
         url = "/about/"
         name = "关于"
-        weight = 5
+        weight = 4
         pre = "internal"
         post = "user-circle"
     [[menu.main]]
@@ -261,7 +261,7 @@ uglyURLs = false
     # 如果否，则会使用你的站点标题作为默认值，并
     # 以文字的形式显示，下方可配置字号和字色。字
     # 体请到底部的字体部分配置。单位：em。
-    siteBrandFontSize = 1
+    siteBrandFontSize = 2
     siteBrandFontColor = "var(--color-contrast-high)"
 
 
@@ -321,7 +321,7 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "jaywhen's life"
+    siteDescription = "一定十分有趣！"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
@@ -351,7 +351,7 @@ uglyURLs = false
     # 的树状分类，故如需保留树状分类，建议适应
     # Hugo 的设计理念——分区。
 
-    categoryBy = "categories"  
+    categoryBy = "sections"  
     # 注意：如果你设置为 `sections`，请务必将
     #      此配置文件中的类别（taxonomies）中
     #      的 `categories` 删除，不然分类页
