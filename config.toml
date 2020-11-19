@@ -874,28 +874,28 @@ uglyURLs = false
     #      SVG，则可留空（""）品牌栏字体。
 
     # 品牌栏
-    fontFamilySiteBrand = ""
+    fontFamilySiteBrand = "Monoton"
     # 菜单栏
-    fontFamilyMenu = ""
+    fontFamilyMenu = "Ma+Shan+Zheng"
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
-    fontFamilyTitle = "'Noto Serif SC', 'EB Garamond', serif"
+    fontFamilyTitle = "'Ma+Shan+Zheng', 'Nothing+You+Could+Do', IBM+Plex+Serif"
     # 分节标题、目录标题
-    fontFamilyHeadings = "'Noto Serif SC', 'EB Garamond', serif"
+    fontFamilyHeadings = "'Ma+Shan+Zheng', 'IBM+Plex+Serif', Cookie"
     # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚、不蒜子站点浏览计数
-    fontFamilyCode = "'Source Code Pro', 'Noto Serif SC', monospace"
+    fontFamilyCode = "'Source Code Pro', 'Nothing+You+Could+Do', IBM+Plex+Serif"
     # 引用
-    fontFamilyQuote = ""
+    fontFamilyQuote = "Noto+Sans+SC"
     # 文章目录
-    fontFamilyTOC = ""
+    fontFamilyTOC = "Noto+Sans+SC"
     # 说明文字
-    fontFamilyCaption = ""
+    fontFamilyCaption = "Noto+Sans+SC"
     # 页脚
-    fontFamilyFooter = ""
+    fontFamilyFooter = "Nothing+You+Could+Do"
     # 主体
-    fontFamilyBody = "'Monoton', 'Noto Serif SC', serif"
+    fontFamilyBody = "'Monoton', 'Nothing+You+Could+Do', Source+Code+Pro"
 
     # 网络字体链接
-    fontsLink = "https://fonts.googleapis.com/css2?family=Monoton:wght@400&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=Monoton:wght@400&family=Nothing+You+Could+Do:wght@400;500;700&family=Ma+Shan+Zheng:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Serif:wght@400&family=Cookie&family=Source+Code+Pro&family=Noto+Sans+SC&display=swap"
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
     #      Google Fonts 的链接，请前往
