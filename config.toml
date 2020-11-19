@@ -176,12 +176,12 @@ uglyURLs = false
 
 [menu]
     ## 菜单栏
-	[[menu.main]]
-	    url = "/"
-	    name = "首页"
-	    weight = 1
-	    pre = "internal"
-	    post = "home"
+#	[[menu.main]]
+#	    url = "/"
+#	    name = "首页"
+#	    weight = 1
+#	    pre = "internal"
+#	    post = "home"
     [[menu.main]]
         url = "/life/"
         name = "生活"
@@ -193,7 +193,7 @@ uglyURLs = false
         name = "计算机科学"
         weight = 3
         pre = "internal"
-        post = "th"
+        # post = "th"
 #    [[menu.main]]
 #        url = "/tags/"
 #        name = "标签"
@@ -205,7 +205,7 @@ uglyURLs = false
         name = "关于"
         weight = 4
         pre = "internal"
-        post = "user-circle"
+        # post = "user-circle"
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
@@ -628,7 +628,7 @@ uglyURLs = false
     trackingCodeType = "gtag"
     # 说明：gtag 或 analytics
 
-    trackingID = ""
+    trackingID = "G-WW2DJK65EM"
 
 
     ######################################
@@ -752,7 +752,7 @@ uglyURLs = false
     # 文章目录
 
     # 是否开启（全局设置）
-    enableTOC = false
+    enableTOC = true
     # 说明：文章的 Front Matter 中的 `toc`
     #      的优先级高于此处
 
@@ -895,7 +895,7 @@ uglyURLs = false
     fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
 
     # 网络字体链接
-    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=Monoton:ital,wght@400;500;700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
     #      Google Fonts 的链接，请前往
