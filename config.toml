@@ -892,7 +892,7 @@ uglyURLs = false
     # 页脚
     fontFamilyFooter = "Nothing+You+Could+Do"
     # 主体
-    fontFamilyBody = "'Monoton', 'Nothing+You+Could+Do', Source+Code+Pro"
+    fontFamilyBody = "'IBM+Plex+Serif', 'Cookie', 'Monoton', 'Nothing+You+Could+Do', 'Noto+Sans+SC', Source+Code+Pro"
 
     # 网络字体链接
     fontsLink = "https://fonts.googleapis.com/css2?family=Monoton:wght@400&family=Nothing+You+Could+Do:wght@400;500;700&family=Ma+Shan+Zheng:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Serif:wght@400&family=Cookie&family=Source+Code+Pro&family=Noto+Sans+SC&display=swap"
