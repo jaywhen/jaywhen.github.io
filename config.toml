@@ -7,7 +7,7 @@ hasCJKLanguage = true
 copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
 
 # 主题选择
-theme = "meme"
+theme = "meme"   
 
 # `hugo new` 新建文章自动打开的文本编辑器
 newContentEditor = ""
@@ -269,11 +269,11 @@ uglyURLs = false
     # 菜单栏
 
     # 是否开启
-    enableMenu = true
+    enableMenu = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否在首页显示
-    displayMenuInHome = true
+    displayMenuInHome = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否按文章分区高亮当前菜单项
@@ -752,7 +752,7 @@ uglyURLs = false
     # 文章目录
 
     # 是否开启（全局设置）
-    enableTOC = true
+    enableTOC = false
     # 说明：文章的 Front Matter 中的 `toc`
     #      的优先级高于此处
 
@@ -892,10 +892,10 @@ uglyURLs = false
     # 页脚
     fontFamilyFooter = "Nothing+You+Could+Do"
     # 主体
-    fontFamilyBody = "'IBM+Plex+Serif', 'Cookie', 'Monoton', 'Nothing+You+Could+Do', 'Noto+Sans+SC', Source+Code+Pro"
+    fontFamilyBody = "'IBM+Plex+Serif', 'Cookie', 'Monoton', 'Nothing+You+Could+Do', 'Noto+Sans+SC', Cinzel+Decorative, Source+Code+Pro"
 
     # 网络字体链接
-    fontsLink = "https://fonts.googleapis.com/css2?family=Monoton:wght@400&family=Nothing+You+Could+Do:wght@400;500;700&family=Ma+Shan+Zheng:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Serif:wght@400&family=Cookie&family=Source+Code+Pro&family=Noto+Sans+SC&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=Monoton:wght@400&family=Nothing+You+Could+Do:wght@400;500;700&family=Ma+Shan+Zheng:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Serif:wght@400&family=Cookie&family=Source+Code+Pro&family=Noto+Sans+SC&family=Cinzel+Decorative:wght@700&display=swap"
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
     #      Google Fonts 的链接，请前往
