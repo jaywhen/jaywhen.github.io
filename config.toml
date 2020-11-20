@@ -874,7 +874,7 @@ uglyURLs = false
     #      SVG，则可留空（""）品牌栏字体。
 
     # 品牌栏
-    fontFamilySiteBrand = "Cinzel+Decorative"
+    fontFamilySiteBrand = "Cinzel Decorative"
     # 菜单栏
     fontFamilyMenu = "Ma Shan Zheng"
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
