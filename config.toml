@@ -874,28 +874,28 @@ uglyURLs = false
     #      SVG，则可留空（""）品牌栏字体。
 
     # 品牌栏
-    fontFamilySiteBrand = "Monoton"
+    fontFamilySiteBrand = "Cinzel+Decorative"
     # 菜单栏
-    fontFamilyMenu = "Ma+Shan+Zheng"
+    fontFamilyMenu = "Ma Shan Zheng"
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
-    fontFamilyTitle = "'Ma+Shan+Zheng', 'Nothing+You+Could+Do', IBM+Plex+Serif"
+    fontFamilyTitle = "'Ma Shan Zheng', 'Noto Sans SC', Mukta"
     # 分节标题、目录标题
-    fontFamilyHeadings = "'Ma+Shan+Zheng', 'IBM+Plex+Serif', Cookie"
+    fontFamilyHeadings = "'Noto+Sans+SC', 'Source Code Pro', Long Cang"
     # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚、不蒜子站点浏览计数
-    fontFamilyCode = "'Source Code Pro', 'Nothing+You+Could+Do', IBM+Plex+Serif"
+    fontFamilyCode = "'Source Code Pro', 'Noto Sans SC', Cinzel Decorative"
     # 引用
-    fontFamilyQuote = "Noto+Sans+SC"
+    fontFamilyQuote = "Noto Sans SC"
     # 文章目录
-    fontFamilyTOC = "Noto+Sans+SC"
+    fontFamilyTOC = "Noto Sans SC"
     # 说明文字
-    fontFamilyCaption = "Noto+Sans+SC"
+    fontFamilyCaption = "Noto Sans SC"
     # 页脚
-    fontFamilyFooter = "Nothing+You+Could+Do"
+    fontFamilyFooter = "Source Code Pro"
     # 主体
-    fontFamilyBody = "'IBM+Plex+Serif', 'Cookie', 'Monoton', 'Nothing+You+Could+Do', 'Noto+Sans+SC', Cinzel+Decorative, Source+Code+Pro"
+    fontFamilyBody = "'Noto Sans SC', 'Cinzel Decorative', 'Source Code Pro', 'Long Cang', 'Mukta', Ma Shan Zheng"
 
     # 网络字体链接
-    fontsLink = "https://fonts.googleapis.com/css2?family=Monoton:wght@400&family=Nothing+You+Could+Do:wght@400;500;700&family=Ma+Shan+Zheng:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Serif:wght@400&family=Cookie&family=Source+Code+Pro&family=Noto+Sans+SC&family=Cinzel+Decorative:wght@700&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Long+Cang&family=Ma+Shan+Zheng&family=Noto+Sans+SC&family=Source+Code+Pro&family=Mukta&display=swap"
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
     #      Google Fonts 的链接，请前往
