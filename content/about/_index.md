@@ -30,20 +30,14 @@ author: ""
 
 
 ## 技能清单
-<p align="center">
-    <img src="https://img.shields.io/badge/C%23-WPF-blue" />
-    <img src="https://img.shields.io/badge/Java-Spring-brightgreen" />
-    <img src="https://img.shields.io/badge/Python-Data--analysis--lib-blue" />
-    <img src="https://img.shields.io/badge/JavaScript-learning-brightgreen" />
+<p align="left">
+    <img src="https://img.shields.io/badge/C%23-WPF-blue" /><img src="https://img.shields.io/badge/Java-Spring-brightgreen" /><img src="https://img.shields.io/badge/Python-Data--analysis--lib-blue" /><img src="https://img.shields.io/badge/JavaScript-learning-brightgreen" />
     <br />
-    <img src="https://img.shields.io/badge/SQL-MySQL-blue" />
-    <img src="https://img.shields.io/badge/SQL-sqlite-blue" />
+    <img src="https://img.shields.io/badge/SQL-MySQL-blue" /><img src="https://img.shields.io/badge/SQL-sqlite-blue" />
     <br />
-    <img src="https://img.shields.io/badge/Editor-VS--Code-blue" />
-    <img src="https://img.shields.io/badge/IDE-VS-blue"  />
-    <img src="https://img.shields.io/badge/IDE-IDEA-blue"  />
-    <img src="https://img.shields.io/badge/IDE-Qt--Creator-green" />
+    <img src="https://img.shields.io/badge/Editor-VS--Code-blue" /><img src="https://img.shields.io/badge/IDE-VS-blue"  /><img src="https://img.shields.io/badge/IDE-IDEA-blue"  /><img src="https://img.shields.io/badge/IDE-Qt--Creator-green" />
 </p>
+
 
 
 ---
