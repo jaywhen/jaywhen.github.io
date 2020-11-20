@@ -19,21 +19,29 @@ author: ""
 
 软件工程专业本科生在读，2021年将会参加硕士研究生考试。
 
+喜欢计算机科学，认可软件工程；热爱体育运动，尤其篮球；
+
+喜欢阅读书籍，小说(大部分网文除外)、历史、计算机科学相关，中国古典文学；
+
+有良好的英语阅读能力，掌握一种科学上网方法；
+
+总之是一个热爱生活的人。
+
+## 技能清单
+<img src="https://img.shields.io/badge/C%23-WPF-blue" align="left" /><img src="https://img.shields.io/badge/Java-Spring-brightgreen" align="left" /><img src="https://img.shields.io/badge/Python-Data--analysis--lib-blue" align="left" /><img src="https://img.shields.io/badge/JavaScript-learning-brightgreen" align="left" />
+
+
+
+<img src="https://img.shields.io/badge/SQL-MySQL-blue" align="left" /><img src="https://img.shields.io/badge/SQL-sqlite-blue" align="left" />
+
+
+
+<img src="https://img.shields.io/badge/Editor-VS--Code-blue" align="left" /><img src="https://img.shields.io/badge/IDE-VS-blue" align="left" /><img src="https://img.shields.io/badge/IDE-IDEA-blue" align="left" /><img src="https://img.shields.io/badge/IDE-Qt--Creator-green" align="left" />
+
+
+
 ## 社交链接
 
 - [Github](https://github.com/jaywhen)
 - [博客园](https://www.cnblogs.com/Jaywhen-xiang/)
 - [twitter](https://twitter.com/jaywhen6)
-
-# 联系方式
-
-- <img src="https://img.icons8.com/windows/32/000000/qq.png" alt="QQ" style="zoom: 80%;" align="left" /> : 1742884132
-
-
-
-- <img src="https://img.icons8.com/fluent/48/000000/gmail--v1.png" style="zoom:67%;" align="left"/>:  jaywhenx@gmail.com
-
-
-
-- <img src="https://img.icons8.com/color/48/000000/weixing.png" style="zoom:67%;" align="left" />: jaywhen
-
