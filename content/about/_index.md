@@ -27,19 +27,23 @@ author: ""
 
 总之是一个热爱生活的人。
 
+
+
 ## 技能清单
-<img src="https://img.shields.io/badge/C%23-WPF-blue" align="left" /><img src="https://img.shields.io/badge/Java-Spring-brightgreen" align="left" /><img src="https://img.shields.io/badge/Python-Data--analysis--lib-blue" align="left" /><img src="https://img.shields.io/badge/JavaScript-learning-brightgreen" align="left" />
-
-
-
-<img src="https://img.shields.io/badge/SQL-MySQL-blue" align="left" /><img src="https://img.shields.io/badge/SQL-sqlite-blue" align="left" />
-
-
-
-<img src="https://img.shields.io/badge/Editor-VS--Code-blue" align="left" /><img src="https://img.shields.io/badge/IDE-VS-blue" align="left" /><img src="https://img.shields.io/badge/IDE-IDEA-blue" align="left" /><img src="https://img.shields.io/badge/IDE-Qt--Creator-green" align="left" />
-
-
-
+<p align="center">
+    <img src="https://img.shields.io/badge/C%23-WPF-blue" />
+    <img src="https://img.shields.io/badge/Java-Spring-brightgreen" />
+    <img src="https://img.shields.io/badge/Python-Data--analysis--lib-blue" />
+    <img src="https://img.shields.io/badge/JavaScript-learning-brightgreen" />
+    <br />
+    <img src="https://img.shields.io/badge/SQL-MySQL-blue" />
+    <img src="https://img.shields.io/badge/SQL-sqlite-blue" />
+    <br />
+    <img src="https://img.shields.io/badge/Editor-VS--Code-blue" />
+    <img src="https://img.shields.io/badge/IDE-VS-blue"  />
+    <img src="https://img.shields.io/badge/IDE-IDEA-blue"  />
+    <img src="https://img.shields.io/badge/IDE-Qt--Creator-green" />
+</p>
 
 
 ---
