@@ -48,13 +48,3 @@ author: ""
 - 闲暇搞搞CG
 
 这几天买了亿些书，跟着官方文档在学flask框架，也准备开始陆陆续续恢复知识产出了，期待年底自己有明显的进步！
-
-## room
-
-![room](https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgsumerroom.jpg)
-
-
-
-
-
-
