@@ -296,7 +296,7 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["人生到处知何似", "应似飞鸿踏雪泥"]
+    homePoetry = ["千年后如若我再生于祖国的河岸", "千年后我再次拥有中国的稻田 和周天子的雪山"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 

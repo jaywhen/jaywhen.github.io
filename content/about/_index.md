@@ -11,12 +11,6 @@ author: ""
 ---
 ## 关于
 
-> ***把起舞的今日 写成诗篇，***
->
-> ***多年后也不遗憾***
->
-> ​								——《美好事物》- 房东的猫
-
 软件工程专业本科生在读，2021年将会参加硕士研究生考试。
 
 喜欢计算机科学，认可软件工程；热爱体育运动，尤其篮球；
@@ -64,3 +58,4 @@ author: ""
 - [Github](https://github.com/jaywhen)
 - [博客园](https://www.cnblogs.com/Jaywhen-xiang/)
 - [twitter](https://twitter.com/jaywhen6)
+- [Bilibili](https://space.bilibili.com/129382476)
