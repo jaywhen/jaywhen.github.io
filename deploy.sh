@@ -1,4 +1,3 @@
-#!bin/sh
 git add .
 msg="rebuilding site $(data)"
 if [ -n "$*" ]; then
