@@ -6,3 +6,4 @@ if [ -n "$*" ]; then
 fi
 git commit -m "$msg"
 git push origin main
+pause
