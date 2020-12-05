@@ -3,7 +3,7 @@ title: "About"
 date: 2020-03-19T19:01:05+08:00
 lastmod: 2020-03-19T19:01:05+08:00
 draft: false
-dropCap: "false"
+dropCap: false
 ---
 ## 关于
 
