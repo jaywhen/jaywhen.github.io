@@ -7,7 +7,7 @@ dropCap: false
 ---
 ## 关于
 
-软件工程专业本科生在读，2021年将会参加硕士研究生考试。
+软件工程专业本科生在读，2021年将参加硕士研究生考试。
 
 喜欢计算机科学，认可软件工程；热爱体育运动，尤其篮球；
 
@@ -26,7 +26,7 @@ dropCap: false
     <img src="https://img.shields.io/badge/C%23-WPF-blue" />
 	<img src="https://img.shields.io/badge/Java-Spring-brightgreen" />
 	<img src="https://img.shields.io/badge/Python-Data--analysis--lib-blue" align="left" />
-	<img src="https://img.shields.io/badge/JavaScript-learning-brightgreen" />
+	<img src="https://img.shields.io/badge/JavaScript-learning--React-brightgreen" />
 </div>
 <div style='display: flex;'>
     <img src="https://img.shields.io/badge/SQL-MySQL-blue" style="display:inline;" />
@@ -38,6 +38,7 @@ dropCap: false
 	<img src="https://img.shields.io/badge/IDE-IDEA-blue"  />
 	<img src="https://img.shields.io/badge/IDE-Qt--Creator-green" />
 </div>
+
 
 
 
