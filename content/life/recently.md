@@ -13,9 +13,9 @@ author: ""
 
 <!--more-->
 
-> 距离上一次更博已经快三个月了，这近三个月来我做了一些反思，也立了许多的flag，希望年底写总结博文时可以看见立下的flag都已实现🦾
+> 距离上一次更博已经快三个月了，这近三个月来我做了一些反思，也立了许多的flag，希望年底写总结时立下的flag都已实现🦾
 
-![flag](https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgreal.png)
+<img src="https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgreal.png" alt="flag" style="zoom: 33%;" />
 
 ## 我在疫情期间所学到的	
 
