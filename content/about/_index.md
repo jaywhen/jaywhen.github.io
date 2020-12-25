@@ -22,22 +22,14 @@ dropCap: false
 
 
 ## 技能清单
-<div style='display: flex;'>
-    <img src="https://img.shields.io/badge/C%23-WPF-blue" alt="c#-wpf" />
-	<img src="https://img.shields.io/badge/Java-Spring-brightgreen" alt="java-spring" />
-	<img src="https://img.shields.io/badge/Python-Data--analysis--lib-blue" alt="python-data-analysis" />
-	<img src="https://img.shields.io/badge/JavaScript-learning--React-brightgreen" alt="js-learning" />
-</div>
-<div style='display: flex;'>
-    <img src="https://img.shields.io/badge/SQL-MySQL-blue" alt="sql-mysql" />
-	<img src="https://img.shields.io/badge/SQL-sqlite-blue" alt="sql-sqlite" />
-</div>
-<div style='display: flex;'>
-    <img src="https://img.shields.io/badge/Editor-VS--Code-blue" alt="vscode" />
-	<img src="https://img.shields.io/badge/IDE-VS-blue" alt="vs"  />
-	<img src="https://img.shields.io/badge/IDE-IDEA-blue" alt="IDEA"  />
-	<img src="https://img.shields.io/badge/IDE-Qt--Creator-green" alt="Qt-Creator" />
-</div>
+
+| 🧲                         | 🛠                          |
+| ------------------------- | -------------------------- |
+| PC客户端（Windows平台下） | WPF——C#                    |
+| web后端                   | Spring家族——Java(learning) |
+| web前端                   | React(learning)            |
+| Android                   | using Java                 |
+
 
 
 
