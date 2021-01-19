@@ -1,5 +1,5 @@
 git add .
-msg="rebuilding site $(data)"
+msg="rebuilding site $(date)"
 if [ -n "$*" ]; then
     msg="$*"
 fi
