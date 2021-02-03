@@ -33,10 +33,6 @@ dropCap: false
 
 
 
-![](https://cdn.applysquare.net/a2/institute/cn.nwpu/logo.png)
-
-![](https://cdn.applysquare.net/a2/institute/cn.hitwh/logo.png)
-
 ## 社交链接
 
 - [Github](https://github.com/jaywhen)
