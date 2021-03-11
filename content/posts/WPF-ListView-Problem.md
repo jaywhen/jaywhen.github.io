@@ -57,7 +57,7 @@ draft: false
 </ListView>
 ```
 
-```c#
+```bash
 private void ListView_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
 {
     if (!e.Handled)
