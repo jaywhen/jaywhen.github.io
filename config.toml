@@ -1,4 +1,4 @@
-baseURL = "https://jaywhen-github-io.vercel.app/"
+#baseURL = "https://jaywhen-github-io.vercel.app/"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "Jaywhen"                         # site title  # 网站标题
