@@ -1,14 +1,11 @@
 ---
-title: "这就“郝👌”"
+title: "🏀"
 date: 2020-08-25T23:43:27+08:00
 lastmod: 2020-08-25T23:43:27+08:00
 draft: true
 keywords: []
 description: ""
-tags: [daily]
-categories: [篮球]
 author: ""
-
 comment: false
 toc: false
 autoCollapseToc: false
@@ -30,6 +27,6 @@ sequenceDiagrams:
 
 ---
 
-> 这个夏天练得很爽！
+> 👏🏀
 
 ![ball](https://cdn.jsdelivr.net/gh/jaywhen/imageBed/imgafter.jpg)
