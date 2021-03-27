@@ -1,5 +1,5 @@
 ---
-title: " "WslRegisterDistribution failed with error: 0xc03a001a" 的解决方法"
+title: "WslRegisterDistribution failed with error: 0xc03a001a  的解决方法"
 date: 2020-07-20T15:16:07+08:00
 draft: false
 ---
