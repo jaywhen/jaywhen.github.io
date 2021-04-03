@@ -6,7 +6,7 @@ draft: false
 
 ## A
 
-It is rare to be able to sit down and discuss problems with students. He is obsessed with C-Qt spells. He is upright and does not follow fame and fortune. He is a qualified person. But I personally think that his language skills are not good. This Perhaps it was the reason why he failed to do the subsequent training courses.
+It is rare to be able to sit down and discuss problems with students. He is obsessed with si-cute spells. He is upright and does not follow fame and fortune. He is a qualified person. But I personally think that his language skills are not good. This Perhaps it was the reason why he failed to do the subsequent training courses.
 
 ## B
 
