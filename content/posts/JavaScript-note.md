@@ -1,10 +1,8 @@
 ---
 title: "关于JavaScript"
-date: 2021-03-30T09:12:07+08:00
+date: 2020-12-21T09:12:07+08:00
 draft: false
 ---
-
-> 从21年年初起，我写了很多 JavaScript 的代码，在这之前我只写过一些简单的 JavaScript 代码，阮老师的《ES6 教程》我也只是大概翻了一遍，果然还是得实践出真知
 
 ## JavaScript Array.prototype.map()
 
