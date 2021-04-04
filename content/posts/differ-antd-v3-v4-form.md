@@ -6,7 +6,7 @@ draft: false
 
 在  v3 中，表单校验一般写成如下形式：
 
-```javascript
+```jsx
 {getFieldDecorator('inputContent', {
             rules: [{
               required: true, 
@@ -19,7 +19,7 @@ draft: false
 
 或者这样：
 
-```javascript
+```jsx
 <FormItem {...formItemLayout1} label='SKU ID' >
     {getFieldDecorator('add_sku_id', {
          rules: [
@@ -51,7 +51,7 @@ draft: false
 
 在 v4 中，这个问题得以解决：
 
-```javascript
+```jsx
 <Form.Item
     label="Username"
     name="username"
@@ -63,7 +63,7 @@ draft: false
 
 直接在 Form.Item 的 rules 中定义校验规则，下面是一些例子：
 
-```javascript
+```jsx
 <FormItem
     label="Phone"
     name="phone"
@@ -89,7 +89,7 @@ draft: false
 
 两个 FormItem 之间有依赖的情况：
 
-```javascript
+```jsx
 <FormItem
     label="Password"
     name="password"
