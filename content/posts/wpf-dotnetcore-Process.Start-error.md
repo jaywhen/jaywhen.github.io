@@ -1,5 +1,5 @@
 ---
-title: "WPF .NET CORE使用Process.Start(url)打开网页报错[System.ComponentModel.Win32Exception:“系统找不到指定的文件。”]"
+title: "WPF .NET CORE Process.Start(url)"
 date: 2020-11-23T21:33:07+08:00
 draft: false
 ---
