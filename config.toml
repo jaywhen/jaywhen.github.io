@@ -48,7 +48,7 @@ pygmentscodefencesguesssyntax = true
   url = "/cv/"
 
 [params]
-  subTitle = "此际回头看，原来并没有事"                                       # site's subTitle  # 网站二级标题
+#  subTitle = "此际回头看，原来并没有事"                                       # site's subTitle  # 网站二级标题
   # footerSlogan = "My spiritual home"                                   # site's footer slogan  # 网站页脚标语
   keywords = ["Jaywhen","Xiang Jiewen","hellocode"]                                  # site's keywords  # 网站关键字
   description = "Jaywhen's blog"                        # site's description  # 网站描述
