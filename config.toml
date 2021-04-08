@@ -41,11 +41,11 @@ pygmentscodefencesguesssyntax = true
   identifier = "about"
   url = "/about/"
   
-[[menu.main]]
-  name = "CV"
-  weight = 30
-  identifier = "CV"
-  url = "/cv/"
+#[[menu.main]]
+#  name = "CV"
+#  weight = 30
+#  identifier = "CV"
+#  url = "/cv/"
 
 [params]
 #  subTitle = "此际回头看，原来并没有事"                                       # site's subTitle  # 网站二级标题
